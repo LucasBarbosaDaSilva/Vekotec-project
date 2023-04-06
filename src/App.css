@@ -152,13 +152,16 @@
 
 .background-image {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
   /* width: '100px';
   height: 100%; */
 }
 
 @media (max-width: 768px) {
   .background-image {
-    height: '1000px';
+    height: '100px';
     width: '150%';
   }
 }
@@ -192,9 +195,9 @@
 @media (max-width: 768px) {
   /* reduz o tamanho da logo */
   .logo-1 {
-    width: 150px;
-    padding: 40px;
-  margin-left: -6%;
+    width: 180px;
+    padding: 55px;
+  margin-left: -16%;
   margin-top: -10%;
   transform: translateY(-35px);
   }
@@ -202,11 +205,108 @@
 @media (min-width: 768px) {
   .logo-1 {
     display: flex;
-    padding: 200px;
+    padding: 230px;
   width: 870px;
   height: auto;
-  margin-left: -8%;
+  margin-left: -15%;
   margin-top: -10%;
-  transform: translateY(-190px);
+  transform: translateY(-140px);
+  }
+}
+
+.App {
+  width: 100%;
+  max-width: 800px; /* tamanho máximo do conteúdo */
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+  color: #ffffff; /* define a cor do texto como branco */
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  /* margin: 0 0 16px; */
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+  margin: 0 0 24px;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 12px;
+    line-height: 40px;
+    margin-top: 18%;
+  }
+
+  p {
+    font-size: 8px;
+    line-height: 0;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 10%;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 0;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .logo-1 {
+    width: 380px;
+    padding: 105px;
+  margin-left: -17%;
+  margin-top: -13%;
+  transform: translateY(-35px);
+  }
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  h1 {
+    font-size: 42px;
+    line-height: 48px;
+    margin-top: 10%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .logo-1 {
+    width: 450px;
+    padding: 110px;
+  margin-left: -15%;
+  margin-top: -12%;
+  transform: translateY(-35px);
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  h1 {
+    font-size: 88px;
+    line-height: 86px;
+    margin-top: 15%;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 8%;
+    text-align: center;
   }
 }
