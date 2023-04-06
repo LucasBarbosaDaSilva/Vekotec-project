@@ -7,7 +7,6 @@ export default function Header() {
       id="header"
     >
       <img
-        className="h-8"
         src={logo}
         alt="VekotekLogo"
       />
