@@ -146,3 +146,67 @@
     padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
   }
 }
+
+
+/*Valores */
+
+.background-image {
+  position: relative;
+  /* width: '100px';
+  height: 100%; */
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    height: '1000px';
+    width: '150%';
+  }
+}
+
+/* Estilos para telas maiores que 768px (notebooks) */
+@media (min-width: 768px) {
+  .background-image {
+    height: '700px';
+    width: '100%';
+  }
+}
+
+/* Estilos para telas maiores que 1200px (TVs) */
+@media (min-width: 1200px) {
+  .background-image {
+    height: '700px';
+    width: '100%';
+  }
+}
+
+.logo-1 {
+  display: flex;
+
+  width: 350px;
+  height: auto;
+  
+  
+}
+
+/* media query para telas menores que um notebook */
+@media (max-width: 768px) {
+  /* reduz o tamanho da logo */
+  .logo-1 {
+    width: 150px;
+    padding: 40px;
+  margin-left: -6%;
+  margin-top: -10%;
+  transform: translateY(-35px);
+  }
+}
+@media (min-width: 768px) {
+  .logo-1 {
+    display: flex;
+    padding: 200px;
+  width: 870px;
+  height: auto;
+  margin-left: -8%;
+  margin-top: -10%;
+  transform: translateY(-190px);
+  }
+}
