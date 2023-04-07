@@ -499,3 +499,56 @@ p {
     background: white;
   }
 }
+
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button-client {
+  margin-top: 70%;
+  margin-left: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/* h1 {
+  margin-bottom: 0;
+}
+
+button {
+  margin-left: 10px;
+} */
+
+/*WhatsLink */
+
+.whatsapp-link {
+  z-index: 99;
+  position: fixed;
+  bottom: 50%;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background-color: #128c7e;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.whatsapp-link img {
+  width: 40px;
+  height: 40px;
+}
