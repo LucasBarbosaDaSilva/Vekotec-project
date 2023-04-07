@@ -1,5 +1,5 @@
 /** HEADER STYLING **/
-#header {
+/* #header {
   position: fixed;
   height: 16vh;
   display: flex;
@@ -32,7 +32,6 @@
   padding-right: 1rem;
   background-color: white;
   margin: 0.8ch;
-  /* margin-top: 8vh; */
   color: #494949;
   box-shadow: 5px 5px rgb(44, 44, 44);
 }
@@ -40,7 +39,7 @@
 #header-links a:hover {
   transform: translate(-1px, -1px);
   box-shadow: 7px 7px rgb(44, 44, 44);
-}
+} */
 
 /** CAROUSEL STYLING **/
 .carousel img {
@@ -82,29 +81,10 @@
   }
 }
 
-/* .video-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
-
 .video-container {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
+  padding-top: 56.25%;
   margin-top: 10%;
   margin-left: 23%;
 }
@@ -119,31 +99,36 @@
 
 @media (min-width: 640px) {
   .video-container {
-    padding-top: 42.5%; /* Proporção 17:9 para o vídeo */
+    padding-top: 42.5%;
+    /* Proporção 17:9 para o vídeo */
   }
 }
 
 @media (min-width: 768px) {
   .video-container {
-    padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
   }
 }
 
 @media (min-width: 1024px) {
   .video-container {
-    padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
   }
 }
 
 @media (min-width: 1280px) {
   .video-container {
-    padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
   }
 }
 
 @media (min-width: 1536px) {
   .video-container {
-    padding-top: 56.25%; /* Proporção 16:9 para o vídeo */
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
   }
 }
 
@@ -187,40 +172,44 @@
 
   width: 350px;
   height: auto;
-  
-  
+
+
 }
 
 /* media query para telas menores que um notebook */
 @media (max-width: 768px) {
+
   /* reduz o tamanho da logo */
   .logo-1 {
     width: 180px;
     padding: 55px;
-  margin-left: -16%;
-  margin-top: -10%;
-  transform: translateY(-35px);
+    margin-left: -16%;
+    margin-top: -10%;
+    transform: translateY(-35px);
   }
 }
+
 @media (min-width: 768px) {
   .logo-1 {
     display: flex;
     padding: 230px;
-  width: 870px;
-  height: auto;
-  margin-left: -15%;
-  margin-top: -10%;
-  transform: translateY(-140px);
+    width: 870px;
+    height: auto;
+    margin-left: -15%;
+    margin-top: -10%;
+    transform: translateY(-140px);
   }
 }
 
 .App {
   width: 100%;
-  max-width: 800px; /* tamanho máximo do conteúdo */
+  max-width: 800px;
+  /* tamanho máximo do conteúdo */
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box;
-  color: #ffffff; /* define a cor do texto como branco */
+  color: #ffffff;
+  /* define a cor do texto como branco */
 }
 
 h1 {
@@ -236,7 +225,7 @@ p {
   text-align: justify;
   margin: 0 0 24px;
 }
-
+/******* TELAS ATÉ 480px ********/
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 12px;
@@ -250,8 +239,58 @@ p {
     margin-bottom: 18px;
     text-align: center;
   }
+
+  #header {
+    position: fixed;
+    padding-top: 1ch;
+    height: 16vh;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+  }
+
+  #header-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  #header #logo {
+    height: 9vh;
+  }
+
+  #header #pushdown {
+    border: 0.5px solid white;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 7vh;
+  }  
+
+  #header #pushdown:active {
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+  }
+
+  #header-links {
+    display: flex; 
+    margin: 0.5ch;
+    justify-content: space-around;
+  }
+
+  #header-links a {
+    font-size: 13px;
+    padding: 0.8ch 3ch;
+    margin: 0.5ch;
+    color: #494949;
+    /* box-shadow: 5px 5px rgb(44, 44, 44); */
+  }
+
+  #header.headerActive {
+    background: white;
+  }
 }
 
+/******* TELAS ATÉ 768px ********/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 36px;
@@ -265,14 +304,62 @@ p {
     margin-top: 25px;
     text-align: center;
   }
+
   .logo-1 {
     width: 380px;
     padding: 105px;
-  margin-left: -17%;
-  margin-top: -13%;
-  transform: translateY(-35px);
+    margin-left: -17%;
+    margin-top: -13%;
+    transform: translateY(-35px);
   }
-  
+
+  #header {
+    position: fixed;
+    padding-top: 1ch;
+    height: 16vh;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+  }
+
+  #header-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  #header #logo {
+    height: 9vh;
+  }
+
+  #header #pushdown {
+    border: 0.5px solid white;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 7vh;
+  }  
+
+  #header #pushdown:active {
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+  }
+
+  #header-links {
+    display: flex; 
+    margin: 0.5ch;
+    justify-content: space-around;
+  }
+
+  #header-links a {
+    padding: 0.8ch 3ch;
+    margin: 0.5ch;
+    color: #494949;
+    /* box-shadow: 5px 5px rgb(44, 44, 44); */
+  }
+
+  #header.headerActive {
+    background: white;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -287,12 +374,13 @@ p {
     line-height: 28px;
     text-align: center;
   }
+
   .logo-1 {
     width: 450px;
     padding: 110px;
-  margin-left: -15%;
-  margin-top: -12%;
-  transform: translateY(-35px);
+    margin-left: -15%;
+    margin-top: -12%;
+    transform: translateY(-35px);
   }
 }
 
