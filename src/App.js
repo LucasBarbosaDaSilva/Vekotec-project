@@ -1,7 +1,8 @@
 import './App.css';
 import Carousel from './components/Carousel';
 import Header from './components/Header';
-import VideoClip from './Components/VideoClip';
+import Values from './components/Values';
+import VideoClip from './components/VideoClip';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Carousel />
       <VideoClip />
-
+      <Values />
     </div>
   );
 }

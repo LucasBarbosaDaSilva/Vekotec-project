@@ -8,7 +8,7 @@ const VideoClip = () => {
     <iframe
       src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
       title="YouTube video player"
-      allow="autoplay; encrypted-media"
+      allow="autoplay"
       allowFullScreen
     />
   </div>
