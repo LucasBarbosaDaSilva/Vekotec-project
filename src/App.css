@@ -97,19 +97,7 @@
   height: 60%;
 }
 
-@media (min-width: 640px) {
-  .video-container {
-    padding-top: 42.5%;
-    /* Proporção 17:9 para o vídeo */
-  }
-}
 
-@media (min-width: 768px) {
-  .video-container {
-    padding-top: 56.25%;
-    /* Proporção 16:9 para o vídeo */
-  }
-}
 
 @media (min-width: 1024px) {
   .video-container {
@@ -133,23 +121,11 @@
 }
 
 
-/*Valores */
 
-.background-image {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  padding: 5%;
-  /* width: '100px';
-  height: 100%; */
-}
 
-@media (max-width: 768px) {
-  .background-image {
-    height: '100px';
-    width: '150%';
-  }
-}
+
+
+
 
 /* Estilos para telas maiores que 768px (notebooks) */
 @media (min-width: 768px) {
@@ -167,26 +143,13 @@
   }
 }
 
-.logo-1 {
-  display: flex;
 
-  width: 350px;
-  height: auto;
-
-
-}
 
 /* media query para telas menores que um notebook */
 @media (max-width: 768px) {
 
   /* reduz o tamanho da logo */
-  .logo-1 {
-    width: 180px;
-    padding: 55px;
-    margin-left: -16%;
-    margin-top: -10%;
-    transform: translateY(-35px);
-  }
+  
 }
 
 @media (min-width: 768px) {
@@ -213,17 +176,13 @@
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 56px;
+  font-family: monospace;
   text-align: center;
-  /* margin: 0 0 16px; */
 }
 
 p {
-  font-size: 18px;
-  line-height: 28px;
-  text-align: justify;
-  margin: 0 0 24px;
+  font-family: monospace;
+  text-align: center;
 }
 /******* TELAS ATÉ 480px ********/
 @media only screen and (max-width: 480px) {
@@ -288,29 +247,78 @@ p {
   #header.headerActive {
     background: white;
   }
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 20px;
+    height: 20px;
+  }
+  .video-container {
+    padding-top: 51%;
+    /* Proporção 17:9 para o vídeo */
+  }
+  .background-image {
+    
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      padding: 3%;
+      /* width: '100px';
+      height: 100%; */
+    
+  }
+  .logo-1 {
+    width: 180px;
+    padding: 58px;
+    margin-left: -16%;
+    margin-top: -10%;
+    transform: translateY(-25px);
+  }
 }
+
+
 
 /******* TELAS ATÉ 768px ********/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 36px;
     line-height: 44px;
-    margin-top: 10%;
+    margin-top: 16%;
+    margin-bottom: 12%;
   }
 
   p {
     font-size: 15px;
     line-height: 0;
-    margin-top: 25px;
-    text-align: center;
+    margin-top: 29px;
   }
 
   .logo-1 {
     width: 380px;
-    padding: 105px;
+    padding: 110px;
     margin-left: -17%;
     margin-top: -13%;
-    transform: translateY(-35px);
+    transform: translateY(-40px);
   }
 
   #header {
@@ -360,7 +368,48 @@ p {
   #header.headerActive {
     background: white;
   }
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+  .video-container {
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
+  }
+  .background-image {
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    /* width: '100px';
+    height: 100%; */
+  
 }
+}
+
 
 
 /******* TELAS ATÉ 1200px ********/
@@ -526,29 +575,3 @@ button {
 
 /*WhatsLink */
 
-.whatsapp-link {
-  z-index: 99;
-  position: fixed;
-  bottom: 50%;
-  right: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #25d366;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease;
-}
-
-.whatsapp-link:hover {
-  background-color: #128c7e;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  transform: scale(1.1);
-}
-
-.whatsapp-link img {
-  width: 40px;
-  height: 40px;
-}
