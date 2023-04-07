@@ -5,8 +5,7 @@ function Footer() {
     backgroundImage: `url(${process.env.PUBLIC_URL}/footer-image.jpeg)`,
     backgroundSize: '100%', 
     backgroundPosition: 'center',
-    height: '600px',
-    width: '100%'
+    
   };
 
   return (
