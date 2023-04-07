@@ -362,6 +362,8 @@ p {
   }
 }
 
+
+/******* TELAS ATÉ 1200px ********/
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   h1 {
     font-size: 42px;
@@ -382,6 +384,54 @@ p {
     margin-top: -12%;
     transform: translateY(-35px);
   }
+
+  #header {
+    position: fixed;
+    padding-top: 1ch;
+    height: 16vh;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+  }
+
+  #header-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  #header #logo {
+    height: 9vh;
+  }
+
+  #header #pushdown {
+    border: 0.5px solid white;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 7vh;
+  }  
+
+  #header #pushdown:active {
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+  }
+
+  #header-links {
+    display: flex; 
+    margin: 0.5ch;
+    justify-content: space-around;
+  }
+
+  #header-links a {
+    padding: 0.8ch 3ch;
+    margin: 0.5ch;
+    margin-top: 3ch;
+    color: #494949;
+  }
+
+  #header.headerActive {
+    background: white;
+  }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -396,5 +446,56 @@ p {
     line-height: 28px;
     margin-top: 8%;
     text-align: center;
+  }
+
+  #header {
+    position: fixed;
+    padding-top: 1ch;
+    height: 16vh;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+  }
+
+  #header-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  #header #logo {
+    height: 10vh;
+    margin-right: 30ch;
+  }
+
+  #header #pushdown {
+    border: 0.5px solid white;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 7vh;
+  }  
+
+  #header #pushdown:active {
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+  }
+
+  #header-links {
+    display: flex; 
+    margin: 0.5ch;
+    justify-content: space-around;
+  }
+
+  #header-links a {
+    padding: 0.8ch 3ch;
+    font-size: 1em;
+    margin: 0.5ch;
+    margin-top: 3ch;
+    color: #494949;
+  }
+
+  #header.headerActive {
+    height: 23vh;
+    background: white;
   }
 }
