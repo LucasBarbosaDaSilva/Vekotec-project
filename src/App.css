@@ -63,109 +63,8 @@
   height: 60%;
 }
 
-@media (min-width: 640px) {
-  .video-container {
-    padding-top: 42.5%;
-    /* Proporção 17:9 para o vídeo */
-  }
-}
-
-@media (min-width: 768px) {
-  .video-container {
-    padding-top: 56.25%;
-    /* Proporção 16:9 para o vídeo */
-  }
-}
-
-@media (min-width: 1024px) {
-  .video-container {
-    padding-top: 56.25%;
-    /* Proporção 16:9 para o vídeo */
-  }
-}
-
-@media (min-width: 1280px) {
-  .video-container {
-    padding-top: 56.25%;
-    /* Proporção 16:9 para o vídeo */
-  }
-}
-
-@media (min-width: 1536px) {
-  .video-container {
-    padding-top: 56.25%;
-    /* Proporção 16:9 para o vídeo */
-  }
-}
 
 
-/*Valores */
-
-.background-image {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  padding: 5%;
-  /* width: '100px';
-  height: 100%; */
-}
-
-@media (max-width: 768px) {
-  .background-image {
-    height: '100px';
-    width: '150%';
-  }
-}
-
-/* Estilos para telas maiores que 768px (notebooks) */
-@media (min-width: 768px) {
-  .background-image {
-    height: '700px';
-    width: '100%';
-  }
-}
-
-/* Estilos para telas maiores que 1200px (TVs) */
-@media (min-width: 1200px) {
-  .background-image {
-    height: '700px';
-    width: '100%';
-  }
-}
-
-.logo-1 {
-  display: flex;
-
-  width: 350px;
-  height: auto;
-
-
-}
-
-/* media query para telas menores que um notebook */
-@media (max-width: 768px) {
-
-  /* reduz o tamanho da logo */
-  .logo-1 {
-    width: 180px;
-    padding: 55px;
-    margin-left: -16%;
-    margin-top: -10%;
-    transform: translateY(-35px);
-  }
-}
-
-@media (min-width: 768px) {
-  .logo-1 {
-    display: flex;
-    padding: 230px;
-    width: 870px;
-    height: auto;
-    margin-left: -15%;
-    margin-top: -10%;
-    transform: translateY(-140px);
-  }
-}
 
 .App {
   width: 100%;
@@ -179,17 +78,13 @@
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 56px;
+  font-family: monospace;
   text-align: center;
-  /* margin: 0 0 16px; */
 }
 
 p {
-  font-size: 18px;
-  line-height: 28px;
-  text-align: justify;
-  margin: 0 0 24px;
+  font-family: monospace;
+  text-align: center;
 }
 /******* TELAS ATÉ 480px ********/
 @media only screen and (max-width: 480px) {
@@ -276,30 +171,94 @@ p {
     width: 1000px;
     background-color: rgba(255, 255, 255, 0.501);
     transform: translate(-150px,0px) rotate(60deg) ;
+    
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 20px;
+    height: 20px;
+  }
+  .video-container {
+    padding-top: 51%;
+    /* Proporção 17:9 para o vídeo */
+  }
+  .background-image {
+    
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      padding: 3%;
+      /* width: '100px';
+      height: 100%; */
+    
+  }
+  .logo-1 {
+    width: 180px;
+    padding: 58px;
+    margin-left: -16%;
+    margin-top: -10%;
+    transform: translateY(-25px);
+  }
+  .footer-image {
+    position: relative;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 215px;
+    /* width: 100%; */
+  }
+  .maps-image {
+    /* display: flex; */
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 8px; */
   }
 }
+
+
 
 /******* TELAS ATÉ 768px ********/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   h1 {
     font-size: 36px;
     line-height: 44px;
-    margin-top: 10%;
+    margin-top: 16%;
+    margin-bottom: 12%;
   }
 
   p {
     font-size: 15px;
     line-height: 0;
-    margin-top: 25px;
-    text-align: center;
+    margin-top: 29px;
   }
 
   .logo-1 {
     width: 380px;
-    padding: 105px;
+    padding: 110px;
     margin-left: -17%;
     margin-top: -13%;
-    transform: translateY(-35px);
+    transform: translateY(-40px);
   }
 
   #header {
@@ -353,15 +312,66 @@ p {
   .carousel button img {
     height: 12ch;
   }
+  
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+  .video-container {
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
+  }
+  .background-image {
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    /* width: '100px';
+    height: 100%; */
 }
+
+.footer-image {
+  position: relative;
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 515px;
+  /* width: 100%; */
+}
+}
+
 
 
 /******* TELAS ATÉ 1200px ********/
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   h1 {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 48px;
-    margin-top: 10%;
+    margin-top: 18%;
+    margin-bottom: 5%;
   }
 
   p {
@@ -372,10 +382,10 @@ p {
 
   .logo-1 {
     width: 450px;
-    padding: 110px;
-    margin-left: -15%;
+    padding: 140px;
+    margin-left: -21%;
     margin-top: -12%;
-    transform: translateY(-35px);
+    transform: translateY(-65px);
   }
 
   #header {
@@ -429,19 +439,76 @@ p {
   .carousel button img {
     height: 12ch;
   }
+  
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+  .video-container {
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
+  }
+  .background-image {
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  
+}
+.footer-image {
+  position: relative;
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 525px;
+  /* width: 100%; */
+}
+.maps-image {
+  /* display: flex; */
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-47px);
+  height: 2px;
+}
 }
 
 @media only screen and (min-width: 1201px) {
   h1 {
-    font-size: 88px;
+    font-size: 58px;
     line-height: 86px;
-    margin-top: 15%;
+    margin-top: 20%;
+    text-align: center;
   }
 
   p {
     font-size: 28px;
     line-height: 28px;
     margin-top: 8%;
+    /* margin-left: -200px; */
     text-align: center;
   }
 
@@ -499,4 +566,89 @@ p {
   .carousel button img {
     height: 12ch;
   }
+  
+  .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 50%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+  .video-container {
+    padding-top: 56.25%;
+    /* Proporção 16:9 para o vídeo */
+  }
+  .background-image {
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    /* width: '100px';
+    height: 100%; */
 }
+.logo-1 {
+  width: 180px;
+  padding: 58px;
+  margin-left: -16%;
+  margin-top: -10%;
+  transform: translateY(-25px);
+}
+.footer-image {
+  position: relative;
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 525px;
+  /* width: 100%; */
+}
+}
+
+
+
+
+/*Page cadastro de clientes*/
+.clients {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button-client {
+  margin-top: 70%;
+  margin-left: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/* h1 {
+  margin-bottom: 0;
+}
+
+button {
+  margin-left: 10px;
+} */
+
+/*WhatsLink */
+
