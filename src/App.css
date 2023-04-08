@@ -1,45 +1,7 @@
-/** HEADER STYLING **/
-/* #header {
-  position: fixed;
-  height: 16vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  z-index: 99;
-  background:linear-gradient(white, rgba(255, 255, 255, 0)) ;
+:root {
+  --logo-orange: #f1694d;
+  --logo-green: #42c666;
 }
-
-#header img {
-  margin-top: 1ch;
-  margin-left: 10ch;
-}
-
-#header-links {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  margin-right: 12ch;
-  flex-wrap: wrap;
-}
-
-#header-links a {
-  flex-shrink: 1;
-  height: 32px;
-  font-size: 20px;
-  justify-self: flex-start;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: white;
-  margin: 0.8ch;
-  color: #494949;
-  box-shadow: 5px 5px rgb(44, 44, 44);
-}
-
-#header-links a:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 7px 7px rgb(44, 44, 44);
-} */
 
 /** CAROUSEL STYLING **/
 .carousel img {
@@ -47,8 +9,8 @@
   max-width: 100%;
 }
 
-.carousel button img {
-  height: 130px;
+#home {
+  overflow: hidden;
 }
 
 @media (max-width: 639px) {
@@ -79,6 +41,10 @@
   .carousel img {
     max-height: 2048px;
   }
+}
+
+.carousel-text {
+  position: absolute;
 }
 
 .video-container {
@@ -261,8 +227,7 @@ p {
   }
 
   #header #pushdown {
-    border: 0.5px solid white;
-    background-color: rgb(252, 252, 252);
+    background-color: white;
     border-radius: 5px;
     height: 7vh;
   }  
@@ -287,6 +252,30 @@ p {
 
   #header.headerActive {
     background: white;
+  }
+
+  .carousel-text {
+    height: 80%;
+    width: 70%;
+    bottom: -10%;
+  }
+
+  .carousel-text p {
+      font-size: 10px;
+      line-height: 0;
+      text-align: center;
+  }
+
+  .carousel button img {
+    height: 6ch;
+  }
+
+  #embelishment-div {
+    position: absolute;
+    height: 300px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.501);
+    transform: translate(-150px,0px) rotate(60deg) ;
   }
 }
 
@@ -334,8 +323,8 @@ p {
   }
 
   #header #pushdown {
-    border: 0.5px solid white;
-    background-color: rgb(252, 252, 252);
+    /* border: 0.5px solid white; */
+    background-color: white;
     border-radius: 5px;
     height: 7vh;
   }  
@@ -359,6 +348,10 @@ p {
 
   #header.headerActive {
     background: white;
+  }
+
+  .carousel button img {
+    height: 12ch;
   }
 }
 
@@ -407,7 +400,7 @@ p {
 
   #header #pushdown {
     border: 0.5px solid white;
-    background-color: rgb(252, 252, 252);
+    background-color: white;
     border-radius: 5px;
     height: 7vh;
   }  
@@ -431,6 +424,10 @@ p {
 
   #header.headerActive {
     background: white;
+  }
+
+  .carousel button img {
+    height: 12ch;
   }
 }
 
@@ -470,8 +467,8 @@ p {
   }
 
   #header #pushdown {
-    border: 0.5px solid white;
-    background-color: rgb(252, 252, 252);
+    /* border: 0.5px solid white; */
+    background-color: white;
     border-radius: 5px;
     height: 7vh;
   }  
@@ -497,5 +494,9 @@ p {
   #header.headerActive {
     height: 23vh;
     background: white;
+  }
+
+  .carousel button img {
+    height: 12ch;
   }
 }
