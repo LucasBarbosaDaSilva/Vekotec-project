@@ -20,6 +20,22 @@ const Carousel = () => {
       id='home'
       className="relative flex justify-center items-center carousel"
     >
+      <div className="flex justify-center items-center overflow-hidden">
+        <img className="w-full mx-2" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
+        <div id="embelishment-div">
+        </div>
+        <div
+          className='carousel-text'
+        >
+          <h1>
+            Título
+          </h1>
+          <text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur tellus neque.
+          </text>
+        </div>
+      </div>
       <button
         className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white"
         onClick={handleClickPrev}
@@ -38,9 +54,6 @@ const Carousel = () => {
           alt='right-arrow'
         />
       </button>
-      <div className="flex justify-center items-center overflow-hidden">
-        <img className="w-full mx-2" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
-      </div>
     </div>
   );
 };
