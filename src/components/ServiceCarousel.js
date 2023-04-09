@@ -20,10 +20,11 @@ export default class ServiceCarousel extends Component {
 
   render() {
     return (
-      <div>
-        <h4>SERVIÇOS</h4>
+      <div
+        id='services'
+      >
+        <h1>CONHEÇA NOSSOS SERVIÇOS</h1>
         <Slider
-          className='slider'
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
           slidesToShow={3}
@@ -38,8 +39,8 @@ export default class ServiceCarousel extends Component {
               className='service-icon'
               src={trator}
               alt='trator icon'
-            />          
-            </div>
+            />
+          </div>
           <div
             className='service-icon-div'
           >
@@ -75,30 +76,33 @@ export default class ServiceCarousel extends Component {
           <div
             className='service-div'
           >
-            <h1>
-              service
-            </h1>
+            <h2>
+              SUPRESSÃO DE VEGETAÇÃO NATIVA E PLANTADA
+            </h2>
           </div>
           <div
             className='service-div'
           >
-            <h1>
-              service
-            </h1>
+            <h2>
+              REGULARIZAÇÃO DO IMÓVEL PREFEITURA,
+              CAR,
+              OUTORGA
+            </h2>
           </div>
           <div
             className='service-div'
           >
-            <h1>
-              service
-            </h1>
+            <h2>
+              GEOREFERENCIAMENTO RURAL COM CERTIFICAÇÃO INCRA,
+              GEOREFERENCIAMENTO URBANO NO REGISTRO DE IMÓVEIS,
+            </h2>
           </div>
           <div
             className='service-div'
           >
-            <h1>
-              service
-            </h1>
+            <h2>
+              LOCAÇÃO DE CERCA
+            </h2>
           </div>
         </Slider>
       </div>

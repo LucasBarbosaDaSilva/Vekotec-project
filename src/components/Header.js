@@ -7,6 +7,12 @@ export default function Header() {
   const [header, setHeader] = useState('hidden');
   const [headerActive, setHeaderActive] = useState('headerInactive')
 
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
+  
   const handleMenu = () => {
     setHeaderActive(headerActive === 'headerActive' ? 'headerInactive' : 'headerActive');
     setHeader(header === 'hidden' ? 'display' : 'hidden');
@@ -44,7 +50,9 @@ export default function Header() {
         </HashLink>
         <HashLink
           className={header}
-          smooth to={'/page#serviços'}>
+          smooth to={'/page#services'}
+          scroll={el => scrollWithOffset(el)}
+          >
           Serviços
         </HashLink>
         <HashLink

@@ -1,6 +1,7 @@
 :root {
   --logo-orange: #f1694d;
   --logo-green: #42c666;
+  --logo-graphite: #505050;
 }
 
 /** CAROUSEL STYLING **/
@@ -13,7 +14,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 639px) {
+/* @media (max-width: 639px) {
   .carousel img {
     max-height: 1200px;
   }
@@ -41,7 +42,7 @@
   .carousel img {
     max-height: 2048px;
   }
-}
+} */
 
 .carousel-text {
   position: absolute;
@@ -64,8 +65,6 @@
 }
 
 
-
-
 .App {
   width: 100%;
   max-width: 800px;
@@ -77,7 +76,7 @@
   /* define a cor do texto como branco */
 }
 
-h1 {
+/* h1 {
   font-family: monospace;
   text-align: center;
 }
@@ -85,7 +84,7 @@ h1 {
 p {
   font-family: monospace;
   text-align: center;
-}
+} */
 /******* TELAS ATÉ 480px ********/
 @media only screen and (max-width: 480px) {
   /* h1 {
@@ -125,14 +124,14 @@ p {
     background-color: white;
     border-radius: 5px;
     height: 7vh;
-  }  
+  }
 
   #header #pushdown:active {
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
   }
 
   #header-links {
-    display: flex; 
+    display: flex;
     margin: 0.5ch;
     justify-content: space-around;
   }
@@ -156,9 +155,9 @@ p {
   }
 
   .carousel-text p {
-      font-size: 10px;
-      line-height: 0;
-      text-align: center;
+    font-size: 10px;
+    line-height: 0;
+    text-align: center;
   }
 
   .carousel button img {
@@ -170,7 +169,7 @@ p {
     height: 300px;
     width: 1000px;
     background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(-150px,0px) rotate(60deg) ;
+    transform: translate(-150px, 0px) rotate(60deg);
   }
 
   .whatsapp-link {
@@ -188,31 +187,32 @@ p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
   }
-  
+
   .whatsapp-link:hover {
     background-color: #128c7e;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
   }
-  
+
   .whatsapp-link img {
     width: 20px;
     height: 20px;
   }
+
   .video-container {
     padding-top: 51%;
     /* Proporção 17:9 para o vídeo */
   }
+
   .background-image {
-    
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      padding: 3%;
-      /* width: '100px';
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    /* width: '100px';
       height: 100%; */
-    
   }
+
   .logo-1 {
     width: 180px;
     padding: 58px;
@@ -220,14 +220,16 @@ p {
     margin-top: -10%;
     transform: translateY(-25px);
   }
+
   .footer-image {
     position: relative;
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 215px;
     /* width: 100%; */
   }
+
   .maps-image {
     /* display: flex; */
     position: relative;
@@ -283,18 +285,17 @@ p {
   }
 
   #header #pushdown {
-    /* border: 0.5px solid white; */
     background-color: white;
     border-radius: 5px;
     height: 7vh;
-  }  
+  }
 
   #header #pushdown:active {
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
   }
 
   #header-links {
-    display: flex; 
+    display: flex;
     margin: 0.5ch;
     justify-content: space-around;
   }
@@ -313,7 +314,7 @@ p {
   .carousel button img {
     height: 12ch;
   }
-  
+
   .whatsapp-link {
     z-index: 99;
     position: fixed;
@@ -329,42 +330,41 @@ p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
   }
-  
+
   .whatsapp-link:hover {
     background-color: #128c7e;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
   }
-  
+
   .whatsapp-link img {
     width: 25px;
     height: 25px;
   }
+
   .video-container {
     padding-top: 56.25%;
     /* Proporção 16:9 para o vídeo */
   }
+
   .background-image {
-    
     position: relative;
     display: flex;
     flex-direction: row;
     padding: 5%;
     /* width: '100px';
     height: 100%; */
-}
+  }
 
-.footer-image {
-  position: relative;
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 515px;
-  /* width: 100%; */
+  .footer-image {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 515px;
+    /* width: 100%; */
+  }
 }
-}
-
-
 
 /******* TELAS ATÉ 1200px ********/
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -414,14 +414,14 @@ p {
     background-color: white;
     border-radius: 5px;
     height: 7vh;
-  }  
+  }
 
   #header #pushdown:active {
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
   }
 
   #header-links {
-    display: flex; 
+    display: flex;
     margin: 0.5ch;
     justify-content: space-around;
   }
@@ -440,7 +440,7 @@ p {
   .carousel button img {
     height: 12ch;
   }
-  
+
   .whatsapp-link {
     z-index: 99;
     position: fixed;
@@ -456,45 +456,49 @@ p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
   }
-  
+
   .whatsapp-link:hover {
     background-color: #128c7e;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
   }
-  
+
   .whatsapp-link img {
     width: 25px;
     height: 25px;
   }
+
   .video-container {
     padding-top: 56.25%;
     /* Proporção 16:9 para o vídeo */
   }
+
   .background-image {
-    
+
     position: relative;
     display: flex;
     flex-direction: row;
     padding: 5%;
-  
-}
-.footer-image {
-  position: relative;
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 525px;
-  /* width: 100%; */
-}
-.maps-image {
-  /* display: flex; */
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: translateY(-47px);
-  height: 2px;
-}
+
+  }
+
+  .footer-image {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 525px;
+    /* width: 100%; */
+  }
+
+  .maps-image {
+    /* display: flex; */
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(-47px);
+    height: 2px;
+  }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -539,14 +543,14 @@ p {
     background-color: white;
     border-radius: 5px;
     height: 7vh;
-  }  
+  }
 
   #header #pushdown:active {
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
   }
 
   #header-links {
-    display: flex; 
+    display: flex;
     margin: 0.5ch;
     justify-content: space-around;
   }
@@ -567,7 +571,7 @@ p {
   .carousel button img {
     height: 12ch;
   }
-  
+
   .whatsapp-link {
     z-index: 99;
     position: fixed;
@@ -583,45 +587,49 @@ p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
   }
-  
+
   .whatsapp-link:hover {
     background-color: #128c7e;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
   }
-  
+
   .whatsapp-link img {
     width: 25px;
     height: 25px;
   }
+
   .video-container {
     padding-top: 56.25%;
     /* Proporção 16:9 para o vídeo */
   }
+
   .background-image {
-    
+
     position: relative;
     display: flex;
     flex-direction: row;
     padding: 3%;
     /* width: '100px';
     height: 100%; */
-}
-.logo-1 {
-  width: 180px;
-  padding: 58px;
-  margin-left: -16%;
-  margin-top: -10%;
-  transform: translateY(-25px);
-}
-.footer-image {
-  position: relative;
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 525px;
-  /* width: 100%; */
-}
+  }
+
+  .logo-1 {
+    width: 180px;
+    padding: 58px;
+    margin-left: -16%;
+    margin-top: -10%;
+    transform: translateY(-25px);
+  }
+
+  .footer-image {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 525px;
+    /* width: 100%; */
+  }
 }
 
 
@@ -643,6 +651,7 @@ p {
   border-radius: 5px;
   padding: 5px 10px;
 }
+
 /* h1 {
   margin-bottom: 0;
 }
