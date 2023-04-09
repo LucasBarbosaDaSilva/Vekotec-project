@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px) {
+  .service-icon-div {
+    /* background-color: rgb(203, 255, 203); */
+  }
+
+  .service-icon {
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: #f1694d;
+    padding: 1ch;
+  }
+  
+  .service-div {
+    display: flex;
+    /* background-color: red; */
+    height: 100px;
+    width: 90dvw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 1201px) {}

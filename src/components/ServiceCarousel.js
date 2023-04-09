@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { trator, cerca, documento, globo } from '../css/img/svg'
 
-export default class AsNavFor extends Component {
+export default class ServiceCarousel extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,6 +23,7 @@ export default class AsNavFor extends Component {
       <div>
         <h4>SERVIÇOS</h4>
         <Slider
+          className='slider'
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
           slidesToShow={3}
@@ -30,27 +31,40 @@ export default class AsNavFor extends Component {
           focusOnSelect={true}
           centerMode={true}
         >
-          <div>
+          <div
+            className='service-icon-div'
+          >
             <img
+              className='service-icon'
               src={trator}
-              alt=''
-            />          </div>
-          <div>
+              alt='trator icon'
+            />          
+            </div>
+          <div
+            className='service-icon-div'
+          >
             <img
+              className='service-icon'
               src={documento}
-              alt=''
+              alt='document icon'
             />
           </div>
-          <div>
+          <div
+            className='service-icon-div'
+          >
             <img
+              className='service-icon'
               src={globo}
-              alt=''
+              alt='globe icon'
             />
           </div>
-          <div>
+          <div
+            className='service-icon-div'
+          >
             <img
+              className='service-icon'
               src={cerca}
-              alt=''
+              alt='fence icon'
             />
           </div>
         </Slider>
@@ -58,29 +72,33 @@ export default class AsNavFor extends Component {
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
-          <div>
-            <img
-              src={trator}
-              alt=''
-            />
+          <div
+            className='service-div'
+          >
+            <h1>
+              service
+            </h1>
           </div>
-          <div>
-            <img
-              src={documento}
-              alt=''
-            />
+          <div
+            className='service-div'
+          >
+            <h1>
+              service
+            </h1>
           </div>
-          <div>
-            <img
-              src={globo}
-              alt=''
-            />
+          <div
+            className='service-div'
+          >
+            <h1>
+              service
+            </h1>
           </div>
-          <div>
-            <img
-              src={cerca}
-              alt=''
-            />
+          <div
+            className='service-div'
+          >
+            <h1>
+              service
+            </h1>
           </div>
         </Slider>
       </div>

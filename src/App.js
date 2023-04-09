@@ -1,4 +1,5 @@
 import './App.css';
+import './css/service-carousel.css'
 import Carousel from './components/Carousel';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
