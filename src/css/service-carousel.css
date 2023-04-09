@@ -1,22 +1,39 @@
 @media only screen and (max-width: 480px) {
-  .service-icon-div {
-    /* background-color: rgb(203, 255, 203); */
+  #services h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5ch;
+    /* color: #505050; */
   }
 
   .service-icon {
     border: 10px solid white;
+    border-bottom: 2px solid white;
     border-radius: 25px;
-    background-color: #f1694d;
+    background-color: #9fe2b1;
     padding: 1ch;
   }
-  
+
   .service-div {
-    display: flex;
-    /* background-color: red; */
-    height: 100px;
-    width: 90dvw;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    background-color: #9fe2b1;
+    border: 15px solid white;
+    border-radius: 20px;
+    padding: 1ch;
+    height: 20dvh;
+    text-align: center;
+  }
+
+  .service-div h2 {
+    position: absolute;
+    font-size: 14px;
+    text-align: left;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
   }
 }
 
