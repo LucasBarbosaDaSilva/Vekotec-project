@@ -87,19 +87,6 @@ p {
 } */
 /******* TELAS ATÉ 480px ********/
 @media only screen and (max-width: 480px) {
-  /* h1 {
-    font-size: 12px;
-    line-height: 40px;
-    margin-top: 18%;
-  }
-
-  p {
-    font-size: 8px;
-    line-height: 0;
-    margin-bottom: 18px;
-    text-align: center;
-  } */
-
   #header {
     position: fixed;
     padding-top: 1ch;
