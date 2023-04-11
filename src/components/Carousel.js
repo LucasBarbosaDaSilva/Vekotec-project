@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { back1, back2, back3 } from '../css/img/backgrounds';
 import { right, left } from '../css/img/svg'
+import '../Carousel.css';
 
 const Carousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

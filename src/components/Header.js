@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import logo from '../css/img/VekoTec-colored-logo.png';
 import { pushDown } from "../css/img/svg";
+import '../Header.css'
 
 export default function Header() {
   const [header, setHeader] = useState('hidden');

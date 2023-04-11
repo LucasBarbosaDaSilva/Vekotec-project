@@ -1,0 +1,115 @@
+@media only screen and (max-width: 480px) {
+  #whats-container .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 57%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  #whats-container .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  
+  #whats-container .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #whats-container .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  #whats-container .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  #whats-container .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #whats-container .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 62%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  #whats-container .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  #whats-container .whatsapp-link img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  #whats-container .whatsapp-link {
+    z-index: 99;
+    position: fixed;
+    bottom: 60%;
+    right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #25d366;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  .whatsapp-link img {
+    width: 28px;
+    height: 28px;
+  }
+}

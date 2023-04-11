@@ -1,4 +1,5 @@
 import React from 'react';
+import '../VideoClip.css'
 
 const VideoClip = () => {
   const videoId = 'bAgDd875y-o';

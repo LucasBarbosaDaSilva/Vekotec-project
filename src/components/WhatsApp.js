@@ -1,6 +1,6 @@
 import React from 'react';
 import VLibras from '@djpfs/react-vlibras'
-
+import '../WhatsApp.css'
 
 function WhatsApp() {
   return (

@@ -1,0 +1,57 @@
+.carousel img {
+  height: auto;
+  max-width: 100%;
+}
+
+#home {
+  overflow: hidden;
+}
+
+.carousel-text {
+  position: absolute;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .carousel-text {
+    height: 80%;
+    width: 70%;
+    bottom: -10%;
+  }
+
+  .carousel-text p {
+    font-size: 10px;
+    line-height: 0;
+    text-align: center;
+  }
+
+  .carousel button img {
+    height: 6ch;
+  }
+
+  #embelishment-div {
+    position: absolute;
+    height: 300px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.501);
+    transform: translate(-150px, 0px) rotate(60deg);
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .carousel button img {
+    height: 12ch;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .carousel button img {
+    height: 12ch;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .carousel button img {
+    height: 12ch;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { trator, cerca, documento, globo } from '../css/img/svg'
+import '../css/service-carousel.css'
 
 export default class ServiceCarousel extends Component {
   constructor(props) {

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo1 from '../css/img/logo-vekotec.png';
+import '../Values.css';
 
 function Values() {
   const divStyle = {
