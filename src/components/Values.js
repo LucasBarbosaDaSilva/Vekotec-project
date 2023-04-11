@@ -15,14 +15,28 @@ function Values() {
     <div style={divStyle} className="background-image">
       <img src={logo1} alt="Logo da empresa" className="logo-1" />
       <div className="App">
-        <header className="App-header">
-          <h1>Nossos Valores</h1>
-          <text>
-            Lorem ipsum dolor sit amet, consectetur
-            Nulla eget fermentum massa. Morbi finibus
-            Nam sodales suscipit purus, vel sagittis
-          </text>
-        </header>
+        <div className="embeleshment" />
+        
+          <h1 className="value-title">Nossos Valores</h1>
+          <div className="lista-container">
+          <div className="lista-div">
+          
+          <ul>
+            <li>•Excelência no atendimento ao cliente</li>
+            <li>•Sustentabilidade</li>
+            <li>•Segurança</li>
+          </ul>
+          </div>
+          <div className="lista-div">
+
+          <ul>
+             <li>•Praticidade</li>
+             <li>•Economia</li>
+             <li>•Tecnologia</li>
+          <li>•Precisão</li>
+          </ul>
+    </div>
+        </div>
       </div>
     </div>
   );
