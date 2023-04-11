@@ -1,9 +1,8 @@
 @media screen and (max-width: 480px) {
-
   #header {
     position: fixed;
     padding-top: 1ch;
-    height: 16vh;
+    height: 18vh;
     justify-content: space-between;
     width: 100%;
     z-index: 99;
@@ -32,13 +31,15 @@
 
   #header-links {
     display: flex;
-    margin: 0.5ch;
+    margin: 0.6ch;
     justify-content: space-around;
   }
 
   #header-links a {
-    font-size: 13px;
-    padding: 0.8ch 3ch;
+    font-size: 15px;
+    padding-top: 0.8ch;
+    line-height: 16px;
+    ;
     margin: 0.5ch;
     color: #494949;
     /* box-shadow: 5px 5px rgb(44, 44, 44); */
@@ -49,8 +50,8 @@
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   #header {
     position: fixed;
     padding-top: 1ch;
@@ -100,7 +101,6 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
-
   #header {
     position: fixed;
     padding-top: 1ch;
@@ -139,10 +139,9 @@
   }
 
   #header-links a {
-    padding: 0.8ch 3ch;
-    margin: 0.5ch;
-    margin-top: 3ch;
+    margin: 1.5ch;
     color: #494949;
+    font-size: 18px;
   }
 
   #header.headerActive {
@@ -151,7 +150,6 @@
 }
 
 @media only screen and (min-width: 1201px) {
-
   #header {
     position: fixed;
     padding-top: 1ch;
@@ -169,8 +167,8 @@
   }
 
   #header #logo {
-    height: 10vh;
-    margin-right: 30ch;
+    height: 12vh;
+    margin-right: 40ch;
   }
 
   #header #pushdown {
@@ -188,18 +186,18 @@
     display: flex;
     margin: 0.5ch;
     justify-content: space-around;
+    font-weight: 600;
   }
 
   #header-links a {
-    padding: 0.8ch 3ch;
-    font-size: 1em;
-    margin: 0.5ch;
-    margin-top: 3ch;
+    /* padding: 0.8ch 3ch; */
+    font-size: 1.2em;
+    margin-top: 2.1ch;
     color: #494949;
   }
 
   #header.headerActive {
-    height: 23vh;
+    height: 25vh;
     background: white;
   }
 }

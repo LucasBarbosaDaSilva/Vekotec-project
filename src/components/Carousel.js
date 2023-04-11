@@ -22,7 +22,7 @@ const Carousel = () => {
       className="relative flex justify-center items-center carousel"
     >
       <div className="flex justify-center items-center overflow-hidden">
-        <img className="w-full mx-2" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
+        <img className="carousel-img" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
         <div id="embelishment-div" />
         <div
           className='carousel-text'
