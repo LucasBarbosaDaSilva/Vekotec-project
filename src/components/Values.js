@@ -17,7 +17,7 @@ function Values() {
       <div className="App">
         <div className="embeleshment" />
         
-          <h1 className="value-title">Nossos Valores</h1>
+          <h1 className="value-title">Valores</h1>
           <div className="lista-container">
           <div className="lista-div">
           

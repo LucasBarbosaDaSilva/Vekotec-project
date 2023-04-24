@@ -1,5 +1,6 @@
 import React from 'react';
-import map from '../css/img/maps.png'
+import map from '../css/img/maps.png';
+import '../Footer.css';
 
 function Maps() {
   // const styleMaps = {
