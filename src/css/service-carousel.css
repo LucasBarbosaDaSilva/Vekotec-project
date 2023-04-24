@@ -14,6 +14,9 @@
     background-color: #9fe2b1;
     padding: 1ch;
   }
+  .service-icon:hover {
+    transform: scale(1.2);
+  }
 
   .service-div {
     position: relative;
@@ -52,6 +55,9 @@
     border-radius: 40px;
     background-color: #9fe2b1;
     padding: 1ch;
+  }
+  .service-icon:hover {
+    transform: scale(1.2);
   }
 
   .service-div {
@@ -92,6 +98,9 @@
     background-color: #9fe2b1;
     padding: 1ch;
   }
+  .service-icon:hover {
+    transform: scale(1.2);
+  }
 
   .service-div {
     position: relative;
@@ -128,13 +137,16 @@
     border: 25px solid white;
     /* border-bottom: 2px solid white; */
     border-radius: 40px;
-    background-color: #9fe2b1;
+    background-color: #42c666;
     padding: 1ch;
+  }
+  .service-icon:hover {
+    transform: scale(1.2);
   }
 
   .service-div {
     position: relative;
-    background-color: #9fe2b1;
+    background-color: #42c666;
     border: 20px solid white;
     border-radius: 30px;
     padding: 1ch;

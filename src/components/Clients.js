@@ -1,11 +1,12 @@
 import React from 'react';
+import '../Clients.css';
 
 function Clients() {
   return (
-    <div className="clients">
-      <div>
+    <div className="clients-container">
+      <div className="">
       <h1 className="client-title">Cadastro de Clientes</h1>
-      <text className="cliente-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id vehicula est.</text>
+      <p className="cliente-p">Essas informações serão utilizadas para criação de contratos, peças técnicas, e para o contato com o cliente.</p>
       </div>
       <div>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5DOzvcZHjwvPV79gAlcFiFiNfpvKDquBPlK55pu0tgNVUiQ/viewform" target="_blank" rel="noopener noreferrer">
