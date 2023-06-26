@@ -125,6 +125,10 @@
     height: 6ch;
   }
 
+  .carousel-div {
+    height: 100vh;
+  }
+  
   #embelishment-div {
     position: absolute;
     height: 1000px;

@@ -21,7 +21,10 @@ const Carousel = () => {
       id='home'
       className="relative flex justify-center items-center carousel"
     >
-      <div className="flex justify-center items-center overflow-hidden">
+      <div className="flex justify-center items-center overflow-hidden carousel-div" style={{
+      backgroundImage: `url(${images[currentImageIndex]})`,
+      backgroundColor: 'rgb(47,193,140)',
+    }}>
         <img className="carousel-img" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
         <div id="embelishment-div" />
         <div
