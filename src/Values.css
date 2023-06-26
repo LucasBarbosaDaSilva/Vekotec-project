@@ -1,4 +1,19 @@
 @media only screen and (max-width: 480px) {
+
+  .parallax {
+    position: relative;
+    /* background-image: url("https://i.imgur.com/5X9XJ5b.jpg"); */
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+  }
+
+  
+
   .background-image {
     position: relative;
     display: flex;
@@ -159,12 +174,24 @@
 
 
 @media only screen and (min-width: 1201px) {
+
+  .parallax {
+    position: relative;
+    /* background-image: url("https://i.imgur.com/5X9XJ5b.jpg"); */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+  }
+
   .logo-1 {
-    width: 680px;
+    width: 350px;
     padding: 110px;
-    margin-left: -10%;
+    margin-left: -4%;
     /* margin-top: -13%; */
-    transform: translateY(-190px);
+    transform: translateY(-90px);
   }
 
   .background-image {
@@ -178,30 +205,36 @@
   }
   .embeleshment {
     position: absolute;
-    height: 450%;
-    width: 250%;
+    height: 430%;
+    width: 50%;
     background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(70px, -920px) rotate(145deg);
+    transform: translate(700px, -1520px) rotate(45deg);
   }
 
   .value-title {
     display: flex;
-    font-size: 91px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    /* margin-left: ; */
-    transform: translateX(325px);
-    font-weight: 500;
+    text-align: center;
+    /* font-size: 91px; */
+    font-size: 84px;
+    /* margin-bottom: 1.2ch; */
+    font-weight: 600;
+    /* margin-top: 5%; */
+    /* margin-bottom: 5%; */
+    margin-left:75vh ;
+    transform: translateY(-140px);
+    /* transform: translateX(325px); */
+    /* font-weight: 500; */
   }
 
   .lista-container {
     display: flex;
     flex-direction: row;
-    font-size: 39px;
+    font-size: 27px;
     /* margin-top: 10%; */
-    margin-left: 15%;
+    margin-left: 20%;
     font-weight: 500;
-    transform: translateX(20px);
+    transform: translateY(-120px);
+    /* transform: translateX(20px); */
   }
 
   .lista-div {
