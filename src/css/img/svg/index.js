@@ -5,6 +5,9 @@ import trator from './trator.svg';
 import cerca from './cerca.svg';
 import globo from './globo.svg';
 import documento from './documento.svg';
+import whats from './whatsapp-logo.svg';
+import linkedin from './linkedin-logo.svg';
+import email from './gmail-logo.svg';
 
 export {
   right,
@@ -14,4 +17,7 @@ export {
   cerca,
   globo,
   documento,
+  whats,
+  linkedin,
+  email,
 }
