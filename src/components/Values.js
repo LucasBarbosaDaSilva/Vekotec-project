@@ -5,11 +5,11 @@ import '../Values.css';
 function Values() {
   return (
     <div className='values-container'>
-      <h1 className="value-title">Valores</h1>
+      <h1 className="value-title">Os Valores da Vekotec estão alinhados com os Objetivos de Desenvolvimento Sustentável</h1>
       <div className="value-container">
         {ongValues.map(value =>
           <div className="value-card">
-            <img src={value.image} alt="logo" height={10} />
+            <img src={value.image} alt={value.description} height={10} />
           </div>)}
       </div>
     </div>
