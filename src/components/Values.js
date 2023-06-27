@@ -12,8 +12,7 @@ function Values() {
             <img src={value.image} alt="logo" height={10} />
           </div>)}
       </div>
-  
-    </Parallax>
+    </div>
   );
 }
 
