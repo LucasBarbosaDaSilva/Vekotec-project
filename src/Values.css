@@ -12,7 +12,7 @@
 
 @media only screen and (min-width: 1201px) {
   .values-container {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 100%;
   }
 
@@ -39,6 +39,5 @@
   .value-card {
     width: 12%;
     margin: 3%;
-    /* box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75); */
   }
 }

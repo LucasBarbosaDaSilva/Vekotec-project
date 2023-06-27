@@ -209,12 +209,15 @@
 
   .video-container .missão-container .missao-title {
     width: 100%;
-    font-size: 52.8px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
   }
 
   .video-container .missão-container .paragraph-title {
     width: 100%;
-    font-size: 36px;
+    font-size: 30px;
     width: 100%;
     padding: 10px;
   }
