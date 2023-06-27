@@ -1,246 +1,33 @@
 @media only screen and (max-width: 480px) {
-
-  .parallax {
-    position: relative;
-    /* background-image: url("https://i.imgur.com/5X9XJ5b.jpg"); */
-    background-attachment: fixed;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: cover;
-    height: 450px;
-    width: 100%;
-  }
-
   
-
-  .background-image {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    overflow: hidden;
-    padding: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-
-  .logo-1 {
-    position: relative;
-    width: 70%;
-    padding: 75px;
-    margin-left: -10%;
-    /* margin-top: -30%; */
-    transform: translateY(-75px);
-  }
-
-  .embeleshment {
-    position: absolute;
-    height: 300px;
-    width: 1000px;
-    background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(-380px, 0px) rotate(145deg);
-  }
-
-  .value-title {
-    display: flex;
-    font-size: 25px;
-    margin-top: 12%;
-    transform: translateX(-35px);
-    font-weight: 500;
-  }
-
-  .lista-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    margin-top: 10%;
-    margin-left: 25%;
-    font-weight: 500;
-    transform: translateX(-120px);
-  }
-
-  .lista-div {
-    display: flex;
-    margin-left: 8%;
-    margin-top: 3%;
-  }
 }
 
-
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .logo-1 {
-    width: 400px;
-    padding: 110px;
-    margin-left: -17%;
-    /* margin-top: -13%; */
-    transform: translateY(-110px);
-  }
 
-  .background-image {
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    flex-direction: row;
-    padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  .embeleshment {
-    position: absolute;
-    height: 900px;
-    width: 1000px;
-    background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(-280px, 70px) rotate(145deg);
-  }
-
-  .value-title {
-    display: flex;
-    font-size: 49px;
-    margin-top: 12%;
-    /* margin-left: ; */
-    transform: translateX(-25px);
-    font-weight: 500;
-  }
-
-  .lista-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 23px;
-    margin-top: 10%;
-    margin-left: 15%;
-    font-weight: 500;
-    transform: translateX(-120px);
-  }
-
-  .lista-div {
-    display: flex;
-    margin-left: 8%;
-    margin-top: 3%;
-  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
-  .logo-1 {
-    width: 450px;
-    padding: 110px;
-    margin-left: -17%;
-    /* margin-top: -13%; */
-    transform: translateY(-130px);
-  }
-
-  .background-image {
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    flex-direction: row;
-    padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  .embeleshment {
-    position: absolute;
-    height: 900px;
-    width: 1000px;
-    background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(-239px, 14px) rotate(145deg);
-  }
-
-  .value-title {
-    display: flex;
-    font-size: 51px;
-    margin-top: 12%;
-    /* margin-left: ; */
-    transform: translateX(-25px);
-    font-weight: 500;
-  }
-
-  .lista-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 26px;
-    margin-top: 10%;
-    margin-left: 15%;
-    font-weight: 500;
-    transform: translateX(-120px);
-  }
-
-  .lista-div {
-    display: flex;
-    margin-left: 8%;
-    margin-top: 3%;
-  }
+  
 }
 
-
 @media only screen and (min-width: 1201px) {
-
-  .parallax {
-    position: relative;
-    /* background-image: url("https://i.imgur.com/5X9XJ5b.jpg"); */
-    /* background-attachment: fixed; */
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
+  .values-container {
+    background-color: rgb(255, 255, 255);
     width: 100%;
   }
 
-  .logo-1 {
-    width: 350px;
-    padding: 110px;
-    margin-left: -4%;
-    /* margin-top: -13%; */
-    transform: translateY(-90px);
-  }
-
-  .background-image {
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    flex-direction: row;
+  .value-container {
     padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  .embeleshment {
-    position: absolute;
-    height: 430%;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.501);
-    transform: translate(700px, -1520px) rotate(45deg);
-  }
-
-  .value-title {
-    display: flex;
-    text-align: center;
-    /* font-size: 91px; */
-    font-size: 84px;
-    /* margin-bottom: 1.2ch; */
-    font-weight: 600;
-    /* margin-top: 5%; */
-    /* margin-bottom: 5%; */
-    margin-left:75vh ;
-    transform: translateY(-140px);
-    /* transform: translateX(325px); */
-    /* font-weight: 500; */
-  }
-
-  .lista-container {
     display: flex;
     flex-direction: row;
-    font-size: 27px;
-    /* margin-top: 10%; */
-    margin-left: 20%;
-    font-weight: 500;
-    transform: translateY(-120px);
-    /* transform: translateX(20px); */
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
-  .lista-div {
-    display: flex;
-    margin-left: 8%;
-    margin-top: 5%;
+  .value-card {
+    width: 14%;
+    margin: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
   }
 }
-
