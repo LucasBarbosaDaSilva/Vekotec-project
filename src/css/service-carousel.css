@@ -134,20 +134,20 @@
   }
   
   .service-icon {
-    border: 25px solid white;
+    border: 18px solid #f1694d;
     /* border-bottom: 2px solid white; */
     border-radius: 40px;
     background-color: #42c666;
     padding: 1ch;
   }
   .service-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .service-div {
     position: relative;
     background-color: #42c666;
-    border: 20px solid white;
+    border: 15px solid #f1694d;
     border-radius: 30px;
     padding: 1ch;
     height: 20dvh;

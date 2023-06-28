@@ -31,7 +31,7 @@ const Carousel = () => {
           className='carousel-text'
         >
           <h1>
-            Título
+            ESG é com a Vekotec
           </h1>
           <text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
