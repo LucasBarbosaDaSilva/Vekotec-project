@@ -106,18 +106,39 @@
   .carousel-text {
     height: 75%;
     width: 50%;
-    left: 15%;
-    bottom: -33%;
+    left: 10%;
+    top:42%;
   }
 
   .carousel h1 {
-    font-size: 90px;
-    margin-bottom: 1.5ch;
-    font-weight: 600;
+    color:rgb(54, 54, 54);
+    font-size: 100px;
+    /* margin-bottom: 1.5ch; */
+    font-weight: 900;
   }
+
+  
   
   .carousel-text text {
     font-size: 26px;
+  }
+
+  .incra{
+    width: 65%;
+    margin-top: 3vh;
+    margin-left: 23vh;
+  }
+
+  .car{
+    width: 50%;
+    margin-top: -1vh;
+    margin-left: 30vh;
+  }
+
+  .esg{
+    width: 55%;
+    margin-top: -4vh;
+    margin-left: 23vh;
   }
 
   .carousel button img {

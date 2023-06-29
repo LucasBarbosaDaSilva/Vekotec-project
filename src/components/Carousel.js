@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
-import { back1, back2, back3 } from '../css/img/backgrounds';
 import { right, left } from '../css/img/svg'
 import '../Carousel.css';
+import carrousel from '../css/img/logo-carrousel';
 
 const Carousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [back1, back2, back3];
 
   const handleClickPrev = () => {
-    setCurrentImageIndex(currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1);
+    setCurrentImageIndex(currentImageIndex === 0 ? carrousel.length - 1 : currentImageIndex - 1);
   };
 
   const handleClickNext = () => {
-    setCurrentImageIndex(currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1);
+    setCurrentImageIndex(currentImageIndex === carrousel.length - 1 ? 0 : currentImageIndex + 1);
   };
 
   return (
@@ -22,21 +21,18 @@ const Carousel = () => {
       className="relative flex justify-center items-center carousel"
     >
       <div className="flex justify-center items-center overflow-hidden carousel-div" style={{
-      backgroundImage: `url(${images[currentImageIndex]})`,
+      backgroundImage: `url(${carrousel[currentImageIndex].image})`,
       backgroundColor: 'rgb(47,193,140)',
     }}>
-        <img className="carousel-img" src={images[currentImageIndex]} alt={`Carousel background ${currentImageIndex}`} />
+        <img className="carousel-img" src={carrousel[currentImageIndex].image} alt={`Carousel background ${currentImageIndex}`} />
         <div id="embelishment-div" />
         <div
           className='carousel-text'
         >
           <h1>
-            ESG é com a Vekotec
+            {carrousel[currentImageIndex].title}
           </h1>
-          <text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur tellus neque.
-          </text>
+          <img className={carrousel[currentImageIndex].classe} src={carrousel[currentImageIndex].logo} alt={`Logo ${currentImageIndex}`} />
         </div>
       </div>
       <button
