@@ -125,6 +125,12 @@
 }
 
 @media only screen and (min-width: 1201px) {
+  #services {
+    background-color: #9fe2b1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
   #services h1 {
     text-align: center;
     font-size: 40px;
@@ -134,8 +140,9 @@
   }
   
   .service-icon {
-    border: 18px solid #f1694d;
+    border: 3px solid #f1694d;
     /* border-bottom: 2px solid white; */
+    margin: 2%;
     border-radius: 40px;
     background-color: #42c666;
     padding: 1ch;
@@ -145,23 +152,29 @@
   }
 
   .service-div {
-    position: relative;
+    /* position: relative; */
     background-color: #42c666;
-    border: 15px solid #f1694d;
-    border-radius: 30px;
-    padding: 1ch;
-    height: 20dvh;
-    text-align: center;
+    padding: 3%;
+    /* border: 15px solid #f1694d; */
+    /* border-radius: 30px; */
+    /* padding: 1ch; */
+    /* height: 20dvh; */
+    /* text-align: center; */
   }
 
   .service-div h2 {
-    position: absolute;
-    font-size: 24px;
-    text-align: left;
-    top: 50%;
-    width: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    font-size: 38px;
+    /* text-align: left; */
+    /* top: 50%; */
+    /* width: 90%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     font-weight: 700;
+  }
+
+  .service-div p {
+    font-size: 22px;
+    text-align: justify;
   }
 }

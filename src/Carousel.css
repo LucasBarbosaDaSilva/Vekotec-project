@@ -19,7 +19,7 @@
     margin-bottom: 0.5ch;
     font-weight: 600;
   }
-  
+
   .carousel-text text {
     font-size: 14px;
   }
@@ -51,7 +51,7 @@
     margin-bottom: 1.2ch;
     font-weight: 600;
   }
-  
+
   .carousel-text text {
     font-size: 20px;
   }
@@ -83,7 +83,7 @@
     margin-bottom: 1.2ch;
     font-weight: 600;
   }
-  
+
   .carousel-text text {
     font-size: 24px;
   }
@@ -107,38 +107,60 @@
     height: 75%;
     width: 50%;
     left: 10%;
-    top:42%;
+    top: 42%;
   }
 
   .carousel h1 {
-    color:rgb(54, 54, 54);
+    color: rgb(54, 54, 54);
     font-size: 100px;
     /* margin-bottom: 1.5ch; */
     font-weight: 900;
   }
 
-  
-  
   .carousel-text text {
     font-size: 26px;
   }
 
-  .incra{
+  .incra {
     width: 65%;
     margin-top: 3vh;
     margin-left: 23vh;
+    animation: fadeIn 0.4s;
+    opacity: 1;
   }
 
-  .car{
+  .car {
     width: 50%;
     margin-top: -1vh;
     margin-left: 30vh;
+    animation: fadeIn3 0.4s;
+    opacity: 1;
   }
 
-  .esg{
+  .esg {
     width: 55%;
     margin-top: -4vh;
     margin-left: 23vh;
+    animation: fadeIn2 0.4s;
+    opacity: 1;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 30%;
+    }
+  }
+
+  @keyframes fadeIn2 {
+    from {
+      opacity: 28%;
+    }
+  }
+
+  @keyframes fadeIn3 {
+    from {
+      opacity: 29%;
+    }
   }
 
   .carousel button img {
@@ -149,7 +171,7 @@
   .carousel-div {
     height: 100vh;
   }
-  
+
   #embelishment-div {
     position: absolute;
     height: 1000px;
