@@ -11,7 +11,7 @@ export default class ServiceCarousel extends Component {
       nav2: null
     };
   }
-  
+
   componentDidMount() {
     this.setState({
       nav1: this.slider1,
@@ -28,7 +28,7 @@ export default class ServiceCarousel extends Component {
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
-          slidesToShow={3}
+          slidesToShow={6}
           swipeToSlide={true}
           focusOnSelect={true}
           centerMode={true}

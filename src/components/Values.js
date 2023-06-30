@@ -13,7 +13,7 @@ function Values() {
             <img src={value.image} alt={value.description} height={10} />
           </div>)}
       </div>
-      <h6>*para saber mais acesse o site oficial: <a href='https://brasil.un.org/pt-br/sdgs'>https://brasil.un.org/pt-br/sdgs</a></h6>
+      <h6>*para saber mais acesse o site oficial: <a target='_blank' rel='noreferrer' href='https://brasil.un.org/pt-br/sdgs'>https://brasil.un.org/pt-br/sdgs</a></h6>
     </div>
   );
 }

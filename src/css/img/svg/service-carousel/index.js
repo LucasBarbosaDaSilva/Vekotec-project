@@ -5,6 +5,8 @@ import documento from './documento.svg';
 import leaf from './leaf.svg';
 import drop from './drop.svg';
 import tree from './tree.svg';
+import seed from './seed.svg';
+import flashlight from './flashlight.svg';
 
 const servicesArray = [
   {
@@ -53,6 +55,14 @@ const servicesArray = [
         e regulamentos ambientais. A defesa das multas ambientais geralmente requer conhecimento especializado na área ambiental e compreensão dos aspectos
         legais envolvidos.`,
       },
+      {
+        title: 'Usucapião Judicial e Extra Judicial',
+        text: `Usucapião é um instituto do direito civil que permite a aquisição de propriedade de um bem
+        imóvel ou móvel em virtude da posse prolongada e contínua, desde que preenchidos
+        determinados requisitos legais. No caso da usucapião de imóvel, a pessoa adquire a propriedade
+        do bem pelo exercício da posse mansa e pacífica, de forma ininterrupta, pelo prazo estabelecido
+        na legislação .`,
+      }
     ],
   },
   {
@@ -89,7 +99,7 @@ const servicesArray = [
         ambientais e florestais vigentes. Essas regularizações são necessárias para garantir a conservação dos recursos naturais, a proteção do meio ambiente e o uso sustentável dos recursos naturais.
         No contexto brasileiro, a regularização ambiental e florestal está diretamente relacionada à implementação do Código Florestal (Lei nº 12.651/2012) e do Sistema Nacional de Informação sobre o Meio Ambiente
         (SINIMA), que abrange o Cadastro Ambiental Rural (CAR) e o Programa de Regularização Ambiental (PRA).`,
-      }
+      },
     ],
   },
   {
@@ -136,11 +146,51 @@ const servicesArray = [
     icon: tree,
     content: [
       {
-        title: 'Projetos Sustentáveis',
-        text: ``,
+        title: 'PTRF',
+        text: `Um Projeto Técnico de Recuperação Flora (PTRF) é um plano elaborado para restaurar áreas degradadas
+        ou desmatadas, visando à recuperação ecológica e o restabelecimento da vegetação nativa.`,
+      },
+      {
+        title: 'PRADA',
+        text: `Um Projeto Técnico de Recuperação de Área Degradada ou Alterada (PRADA) é um plano elaborado para
+        restaurar áreas que sofreram algum tipo de degradação ou alteração, visando à sua recuperação ecológica
+        e à melhoria das condições ambientais`
       },
     ],
-  }
+  },
+  {
+    name: 'Seed',
+    icon: seed,
+    content: [
+      {
+        title: 'PAE',
+        text: `O Plano de Aproveitamento Econômico (PAE) é um documento que estabelece as diretrizes e
+        estratégias para a exploração econômica de recursos minerais em uma determinada área. Esse
+        plano é elaborado com base nos resultados da pesquisa mineral e tem como objetivo maximizar
+        a eficiência e rentabilidade da atividade de mineração. O PAE é um componente importante do
+        processo de concessão de lavra, pois descreve as etapas e métodos que serão utilizados para a
+        extração e beneficiamento dos minerais, além de definir as medidas de mitigação de impactos
+        ambientais e sociais. Ele deve estar em conformidade com a legislação e regulamentação
+        aplicáveis, bem como com as exigências do órgão regulador.`,
+      },
+    ],
+  },
+  {
+    name: 'Flashlight',
+    icon: flashlight,
+    content: [
+      {
+        title: 'Estudo de Cavidade/Espeleológico',
+        text: `O estudo de cavidade, também conhecido como estudo espeleológico, é uma ciência que se
+        dedica ao estudo de cavernas, grutas e demais formações subterrâneas. A espeleologia é a
+        ciência que abrange a investigação, exploração e documentação desses ambientes naturais. O
+        estudo de cavidade tem como objetivo aumentar o conhecimento científico sobre esses
+        ambientes, bem como promover a conservação e proteção das cavernas e grutas. Essas
+        formações podem ser de grande importância científica, cultural e ambiental, e muitas vezes são
+        consideradas patrimônios naturais a serem preservados.`,
+      },
+    ]
+  },
 ]
 
 export {
