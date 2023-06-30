@@ -2,10 +2,11 @@ import React from 'react';
 import '../Clients.css';
 
 function Clients() {
-  // const [isShaking, setIsShaking] = useState(false);
-
   return (
-    <div className="clients-container">
+    <div
+    className="clients-container"
+    id='cadastro'
+    >
       <div className="left-container">
       <h1 className="client-title">Cadastro de Clientes</h1>
       <p className="cliente-p">Essas informações serão utilizadas para criação de contratos, peças técnicas, e para o contato com o cliente.</p>

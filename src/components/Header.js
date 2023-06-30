@@ -58,8 +58,8 @@ export default function Header() {
         </HashLink>
         <HashLink
           className={header}
-          smooth to={'/page#sobre'}>
-          Sobre
+          smooth to={'/page#cadastro'}>
+          Cadastro
         </HashLink>
         <HashLink
           className={header}

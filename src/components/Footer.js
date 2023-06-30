@@ -8,7 +8,10 @@ function Footer() {
   
 
   return (
-    <div className="footer-image">
+    <div
+    className="footer-image"
+    id='contato'
+    >
       <img src={logoPb} alt="logo" className='logo-pb' />
      <div className="footer-container">
       <div className="footer-contact">

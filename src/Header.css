@@ -162,20 +162,20 @@
 
   #header-imgs {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 1%;
   }
 
   #header #logo {
-    height: 12vh;
-    margin-right: 40ch;
+    height: 16vh;
+    margin-left: 5%;
   }
 
   #header #pushdown {
-    /* border: 0.5px solid white; */
     background-color: white;
     border-radius: 5px;
     height: 7vh;
+    margin-right: 100px;
   }
 
   #header #pushdown:active {
@@ -190,14 +190,13 @@
   }
 
   #header-links a {
-    /* padding: 0.8ch 3ch; */
-    font-size: 1.2em;
-    margin-top: 2.1ch;
+    font-size: 1.4em;
+    margin-top: 40px;
     color: #494949;
   }
 
   #header.headerActive {
-    height: 25vh;
+    height: 30vh;
     background: white;
   }
 }
