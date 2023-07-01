@@ -109,12 +109,12 @@
     left: 10%;
     top: 42%;
   }
-
+  
   .carousel h1 {
     color: rgb(54, 54, 54);
     font-size: 100px;
-    /* margin-bottom: 1.5ch; */
     font-weight: 900;
+    line-height: 1.5ch;
   }
 
   .carousel-text text {
@@ -145,6 +145,30 @@
     opacity: 1;
   }
 
+
+  .incra-title #extra-text::after {
+    color: var(--logo-orange);
+    content: 'G';
+    font-size: 150px;
+    font-weight: 900;
+  }
+  
+  .car-title #extra-text::after {
+    color: var(--logo-orange);
+    content: 'CAR';
+    font-size: 160px;
+    letter-spacing: -10px;
+    font-weight: 900;
+  }
+
+  .esg-title #extra-text::after {
+    color: var(--logo-orange);
+    content: 'ESG';
+    font-size: 170px;
+    letter-spacing: -10px;
+    font-weight: 900;
+  }
+  
   .incra-title {
     animation: animation 1s ease-in forwards;
   }
@@ -214,7 +238,7 @@
 
   .carousel button img {
     transform: translateY(2ch);
-    height: 6ch;
+    height: 9ch;
   }
 
   .carousel-div {

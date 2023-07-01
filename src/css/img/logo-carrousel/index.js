@@ -5,21 +5,21 @@ import { back1, back2, back3 } from '../../img/backgrounds';
 
 const carrousel = [
   {
-    title: 'Georreferenciamento certificado pelo',
+    title: 'eorreferenciamento certificado pelo',
     image: back1,
     logo: logoINCRA,
     classe:'incra',
     classeTitle:'incra-title',
   },
   {
-    title: 'Cadastro de Imóveis Rurais',
+    title: ' cadastro de Imóveis Rurais',
     image: back2,
     logo: logoCAR,
     classe:'car',
     classeTitle:'car-title',
   },
   {
-    title: 'ESG é com a Vekotec',
+    title: ' é com a Vekotec',
     image: back3,
     logo: logoESG,
     classe:'esg',

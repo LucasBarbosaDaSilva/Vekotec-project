@@ -14,7 +14,7 @@ const VideoClip = ({ prevScrollPos }) => {
       allow="autoplay"
       allowFullScreen
     />
-    <div className={`missão-container ${prevScrollPos > 370 && `animation`}`}>
+    <div className={`missão-container ${prevScrollPos > 278 && `animation`}`}>
       <h1 className="missao-title">Missão</h1>
       <p className="paragraph-title">
       Transformamos problemas globais em soluções sustentáveis, preservando o ambiente para as futuras gerações.

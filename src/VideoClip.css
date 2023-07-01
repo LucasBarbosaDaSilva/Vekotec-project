@@ -188,8 +188,6 @@
   .video-container iframe {
     position: absolute;
     bottom: 15%;
-    /* top: 1%; */
-    /* left: 0; */
     width: 47%;
     height: 63%;
     margin-top: 12.5%;
@@ -203,24 +201,18 @@
     justify-content: center;
     padding: 10px;
     border-radius: 10%;
-    width: 99%;
-    transform: translateY(-93px);
     margin-left: 3.5%;
+    margin-bottom: 10vh;
+    margin-right: 5vh;
   }
 
-  .video-container  .missao-title {
+  .video-container .missao-title {
     width: 100%;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 900;
     margin-left: 30px;
     margin-bottom: 5%;
-  }
-
-  .missão-container{
-    margin-bottom: 5vh;
-    margin-right: 5vh;
-
   }
 
   .video-container .paragraph-title {
@@ -243,7 +235,7 @@
 
     100% {
       opacity: 1;
-      transform: translateY(0px);
+      transform: translateX(0px);
     }
   }
 }
