@@ -3,7 +3,7 @@ import { right, left } from '../css/img/svg'
 import '../Carousel.css';
 import carrousel from '../css/img/logo-carrousel';
 
-const Carousel = () => {
+const Carousel = ({ prevScrollPos }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
 
@@ -29,7 +29,7 @@ const Carousel = () => {
         <div
           className='carousel-text'
         >
-          <h1>
+          <h1 className={carrousel[currentImageIndex].classeTitle}>
             {carrousel[currentImageIndex].title}
           </h1>
           <img className={carrousel[currentImageIndex].classe} src={carrousel[currentImageIndex].logo} alt={`Logo ${currentImageIndex}`} />

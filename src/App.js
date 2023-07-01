@@ -32,7 +32,9 @@ function App() {
       id='main'
     >
       <Header />
-      <Carousel />
+      <Carousel
+      prevScrollPos={prevScrollPos}
+      />
       <WhatsApp />
       <VideoClip
       prevScrollPos={prevScrollPos}
