@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Carousel from './components/Carousel';
 import Clients from './components/Clients';
@@ -12,17 +13,39 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      console.log(prevScrollPos);
+    };
+  }, [prevScrollPos]);
   return (
     <div
       id='main'
     >
       <Header />
-      <Carousel />
+      <Carousel
+      prevScrollPos={prevScrollPos}
+      />
       <WhatsApp />
-      <VideoClip />
-      <ServiceCarousel />
+      <VideoClip
+      prevScrollPos={prevScrollPos}
+      />
+      <ServiceCarousel
+      prevScrollPos={prevScrollPos}
+      />
       <Values />
-      <Clients />
+      <Clients
+      prevScrollPos={prevScrollPos}
+      />
       <Footer />
       <Maps />
     </div>

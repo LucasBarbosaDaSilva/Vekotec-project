@@ -1,10 +1,10 @@
 import React from 'react';
 import '../Clients.css';
 
-function Clients() {
+function Clients({ prevScrollPos }) {
   return (
     <div
-    className="clients-container"
+    className={`clients-container ${prevScrollPos > 2570 && `animation`}`}
     id='cadastro'
     >
       <div className="left-container">

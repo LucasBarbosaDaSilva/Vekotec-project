@@ -8,19 +8,22 @@ const carrousel = [
     title: 'Georreferenciamento certificado pelo',
     image: back1,
     logo: logoINCRA,
-    classe:'incra'
+    classe:'incra',
+    classeTitle:'incra-title',
   },
   {
     title: 'Cadastro de Imóveis Rurais',
     image: back2,
     logo: logoCAR,
     classe:'car',
+    classeTitle:'car-title',
   },
   {
     title: 'ESG é com a Vekotec',
     image: back3,
     logo: logoESG,
     classe:'esg',
+    classeTitle:'esg-title',
   },
 ];
 
