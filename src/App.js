@@ -41,7 +41,9 @@ function App() {
       />
       <ServiceCarousel />
       <Values />
-      <Clients />
+      <Clients
+      prevScrollPos={prevScrollPos}
+      />
       <Footer />
       <Maps />
     </div>
