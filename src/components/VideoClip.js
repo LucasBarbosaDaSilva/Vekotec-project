@@ -1,7 +1,7 @@
 import React from 'react';
 import '../VideoClip.css'
 
-const VideoClip = () => {
+const VideoClip = ({ prevScrollPos }) => {
   const videoId = 'bAgDd875y-o';
 
   return (
@@ -14,7 +14,7 @@ const VideoClip = () => {
       allow="autoplay"
       allowFullScreen
     />
-    <div className="missão-container">
+    <div className={`missão-container ${prevScrollPos > 370 && `animation`}`}>
       <h1 className="missao-title">Missão</h1>
       <p className="paragraph-title">
       Transformamos problemas globais em soluções sustentáveis, preservando o ambiente para as futuras gerações.
