@@ -24,7 +24,7 @@ export default class ServiceCarousel extends Component {
       <div
         id='services'
       >
-        <h1>CONHEÇA NOSSOS SERVIÇOS</h1>
+        <h1 >CONHEÇA NOSSOS SERVIÇOS</h1>
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}

@@ -39,7 +39,9 @@ function App() {
       <VideoClip
       prevScrollPos={prevScrollPos}
       />
-      <ServiceCarousel />
+      <ServiceCarousel
+      prevScrollPos={prevScrollPos}
+      />
       <Values />
       <Clients
       prevScrollPos={prevScrollPos}
