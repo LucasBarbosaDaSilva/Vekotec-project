@@ -5,7 +5,7 @@ import { back1, back2, back3 } from '../../img/backgrounds';
 
 const carrousel = [
   {
-    title: 'eorreferenciamento certificado pelo',
+    title: `eorreferenciamento certificado pelo`,
     image: back1,
     logo: logoINCRA,
     classe:'incra',

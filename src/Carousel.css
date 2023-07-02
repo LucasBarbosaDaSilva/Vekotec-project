@@ -106,8 +106,8 @@
   .carousel-text {
     height: 75%;
     width: 50%;
-    left: 10%;
-    top: 42%;
+    left: 8%;
+    top: 46%;
   }
   
   .carousel h1 {
@@ -123,28 +123,27 @@
 
   .incra {
     width: 65%;
-    margin-top: 3vh;
-    margin-left: 23vh;
+    margin-left: 28vh;
+    margin-top: -7vh;
     animation: fadeIn 0.4s;
     opacity: 1;
   }
 
   .car {
-    width: 50%;
-    margin-top: -1vh;
-    margin-left: 30vh;
+    width: 40%;
+    margin-top: 4vh;
+    margin-left: 60vh;
     animation: fadeIn3 0.4s;
     opacity: 1;
   }
 
   .esg {
-    width: 55%;
-    margin-top: -4vh;
-    margin-left: 23vh;
+    width: 48%;
+    margin-top: -3vh;
+    margin-left: 45vh;
     animation: fadeIn2 0.4s;
     opacity: 1;
   }
-
 
   .incra-title #extra-text::after {
     color: var(--logo-orange);
@@ -171,10 +170,11 @@
   
   .incra-title {
     animation: animation 1s ease-in forwards;
+    width: 30%;
   }
 
    .car-title{
-    animation: animation 1s ease-in forwards;
+    animation: animation 1s ease-in forwards; 
   }
 
   .esg-title {
@@ -245,7 +245,7 @@
     height: 100vh;
   }
 
-  #embelishment-div {
+  #embelishment-div { 
     position: absolute;
     height: 1000px;
     width: 2500px;
