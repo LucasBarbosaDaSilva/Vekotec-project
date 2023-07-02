@@ -1,5 +1,6 @@
 import React from 'react';
 import '../VideoClip.css'
+import PropTypes from 'prop-types';
 
 const VideoClip = ({ prevScrollPos }) => {
   const videoId = 'bAgDd875y-o';
@@ -22,6 +23,10 @@ const VideoClip = ({ prevScrollPos }) => {
     </div>
   </div>
   );
+};
+
+VideoClip.propTypes = {
+  prevScrollPos: PropTypes.number.isRequired
 };
 
 export default VideoClip;
