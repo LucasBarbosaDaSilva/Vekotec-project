@@ -35,6 +35,7 @@ export default class ServiceCarousel extends Component {
         >
           {servicesArray.map(service => (
             <div
+            key={service.name}
               className='service-icon-div'
             >
               <img
@@ -51,10 +52,12 @@ export default class ServiceCarousel extends Component {
         >
           {servicesArray.map(service => (
             <div
+              key={service.name}
               className='service-div'
             >
               {service.content.map(content => (
                 <div
+                  key={content.title}
                   className='service-content-div'
                 >
                   <h2>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Clients.css';
+import PropTypes from 'prop-types';
 
 function Clients({ prevScrollPos }) {
   return (
@@ -21,5 +22,8 @@ function Clients({ prevScrollPos }) {
     </div>
   );
 }
+Clients.propTypes = {
+  prevScrollPos: PropTypes.number.isRequired
+};
 
 export default Clients;

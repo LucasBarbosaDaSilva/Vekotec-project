@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import logo from '../css/img/VekoTec-colored-logo.png';
 import { pushDown } from "../css/img/svg";
