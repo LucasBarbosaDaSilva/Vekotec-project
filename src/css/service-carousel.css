@@ -4,7 +4,7 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0.5ch;
-    /* color: #505050; */
+    
   }
 
   .service-icon {
@@ -46,12 +46,12 @@
     font-size: 40px;
     font-weight: 600;
     margin: 0.5ch;
-    /* color: #505050; */
+    
   }
 
   .service-icon {
     border: 25px solid white;
-    /* border-bottom: 2px solid white; */
+    
     border-radius: 40px;
     background-color: #9fe2b1;
     padding: 1ch;
@@ -88,12 +88,12 @@
     font-size: 40px;
     font-weight: 600;
     margin: 0.5ch;
-    /* color: #505050; */
+    
   }
 
   .service-icon {
     border: 25px solid white;
-    /* border-bottom: 2px solid white; */
+    
     border-radius: 40px;
     background-color: #9fe2b1;
     padding: 1ch;
@@ -157,7 +157,7 @@
 
   .service-div {
     padding: 2%;
-    /* background-color: red; */
+    
   }
 
   .service-div h2 {

@@ -4,18 +4,18 @@
   --logo-graphite: #505050;
 }
 
-/******* TELAS ATÉ 480px ********/
+
 @media only screen and (max-width: 480px) {
   .maps-image {
-    /* display: flex; */
+    
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-    /* height: 8px; */
+    
   }
 }
 
-/******* TELAS ATÉ 768px ********/
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .footer-image {
     position: relative;
@@ -23,11 +23,11 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 515px;
-    /* width: 100%; */
+    
   }
 }
 
-/******* TELAS ATÉ 1200px ********/
+
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .footer-image {
     position: relative;
@@ -35,11 +35,11 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 525px;
-    /* width: 100%; */
+    
   }
 
   .maps-image {
-    /* display: flex; */
+    
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
@@ -55,11 +55,11 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 525px;
-    /* width: 100%; */
+    
   }
 }
 
-/*Page cadastro de clientes*/
+
 .clients {
   display: flex;
   flex-direction: row;

@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* text-align: center; */
-    /* background-color: red; */
+    
+    
   }
 
   .client-title {
@@ -29,8 +29,8 @@
     background-color: #88e0a0;
     color: rgba(0, 0, 0, 0.818);
     font-weight: 600;
-    /* margin-top: 70%; */
-    /* margin-left: 10%; */
+    
+    
     border: 1px solid black;
     border-radius: 7px;
     padding: 5px 10px;
@@ -51,7 +51,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-color: red; */
+    
   }
 
   .client-title {
@@ -75,8 +75,8 @@
     background-color: #88e0a0;
     color: rgba(0, 0, 0, 0.818);
     font-weight: 600;
-    /* margin-top: 70%; */
-    /* margin-left: 10%; */
+    
+    
     border: 1px solid black;
     border-radius: 7px;
     padding: 5px 10px;
@@ -96,7 +96,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-color: red; */
+    
   }
 
   .client-title {
@@ -120,8 +120,8 @@
     background-color: #88e0a0;
     color: rgba(0, 0, 0, 0.818);
     font-weight: 600;
-    /* margin-top: 70%; */
-    /* margin-left: 10%; */
+    
+    
     border: 1px solid black;
     border-radius: 7px;
     padding: 5px 10px;
