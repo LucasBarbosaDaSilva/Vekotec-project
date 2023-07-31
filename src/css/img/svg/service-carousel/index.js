@@ -1,61 +1,62 @@
-import trator from './trator.svg';
-import cerca from './cerca.svg';
-import globo from './globo.svg';
-import documento from './documento.svg';
-import leaf from './leaf.svg';
-import drop from './drop.svg';
-import tree from './tree.svg';
-import seed from './seed.svg';
-import flashlight from './flashlight.svg';
+import trator from "./trator.svg";
+import cerca from "./cerca.svg";
+import globo from "./globo.svg";
+import documento from "./documento.svg";
+import leaf from "./leaf.svg";
+import drop from "./drop.svg";
+import tree from "./tree.svg";
+import seed from "./seed.svg";
+import flashlight from "./flashlight.svg";
 
 const servicesArray = [
   {
-    name: 'Trator',
+    name: "Trator",
     icon: trator,
-    content: [{
-      title: 'Supressão de Vegetação Nativa e Plantada',
-      text: `A supressão de vegetação refere-se à remoção ou corte de árvores ou vegetação de uma área.`,
-    },
-    {
-      title: 'Pesquisa Mineral',
-      text: `Etapa inicial do processo de desenvolvimento de uma mina, na qual são realizados estudos para identificar e avaliar o potencial mineral de uma área.`,
-    },
+    content: [
+      {
+        title: "Supressão de Vegetação Nativa e Plantada",
+        text: `A supressão de vegetação refere-se à remoção ou corte de árvores ou vegetação de uma área.`,
+      },
+      {
+        title: "Pesquisa Mineral",
+        text: `Etapa inicial do processo de desenvolvimento de uma mina, na qual são realizados estudos para identificar e avaliar o potencial mineral de uma área.`,
+      },
     ],
   },
   {
-    name: 'Cerca',
+    name: "Cerca",
     icon: cerca,
     content: [
       {
-        title: 'Defesa Ambiental',
+        title: "Defesa Ambiental",
         text: `Processo de contestar e buscar a anulação e redução de penalidades impostas por infrações às normas e regulamentos ambientais.`,
       },
       {
-        title: 'Usucapião Judicial e Extra Judicial',
+        title: "Usucapião Judicial e Extra Judicial",
         text: `Usucapião é um instituto do direito civil que permite a aquisição de propriedade de um bem em virtude da posse prolongada e contínua.`,
-      }
+      },
     ],
   },
   {
-    name: 'Globo',
+    name: "Globo",
     icon: globo,
     content: [
       {
-        title: 'Georreferenciamento Rural e Urbano',
+        title: "Georreferenciamento Rural e Urbano",
         text: `O Georreferenciamento (GEO) é o processo de associar informações geográficas a áreas na superfície terrestre.`,
       },
     ],
   },
   {
-    name: 'Documento',
+    name: "Documento",
     icon: documento,
     content: [
       {
-        title: 'Regularização de Imóveis Urbano e Rural',
+        title: "Regularização de Imóveis Urbano e Rural",
         text: `Processo necessário para garantir a legalidade e a segurança jurídica da propriedade.`,
       },
       {
-        title: 'CAR',
+        title: "CAR",
         text: `O Cadastro Ambiental Rural é um registro eletrônico obrigatório para todas as
         propriedades rurais no Brasil, com o objetivo de promover a regularização ambiental das
         propriedades rurais.`,
@@ -63,116 +64,82 @@ const servicesArray = [
     ],
   },
   {
-    name: 'Leaf',
+    name: "Leaf",
     icon: leaf,
     content: [
       {
-        title: 'Licenciamento Ambiental',
-        text: `A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (SEMAD) é o órgão responsável pelo Licenciamento Ambiental em Minas Gerais, no Brasil.
-        O licenciamento ambiental é um procedimento obrigatório que visa avaliar e controlar os impactos ambientais de atividades ou empreendimentos que possam causar danos ao meio ambiente. O processo de
-        licenciamento ambiental realizado pela SEMAD segue as diretrizes estabelecidas pela legislação ambiental brasileira, em especial a Resolução CONAMA (Conselho Nacional do Meio Ambiente)
-        nº 237/1997. Essa resolução estabelece as etapas e os documentos necessários para a obtenção da licença ambiental.`,
+        title: "Licenciamento Ambiental",
+        text: `A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (SEMAD) é o órgão responsável pelo .`,
       },
       {
-        title: 'CCIR',
-        text: `O CCIR (Certificado de Cadastro de Imóvel Rural) é um documento emitido pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA) no Brasil.
-        Ele tem como objetivo comprovar a existência do imóvel rural e registrar suas informações cadastrais.`,
+        title: "CCIR",
+        text: `O CCIR (Certificado de Cadastro de Imóvel Rural) é um documento emitido pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA) no Brasil.`,
       },
     ],
   },
   {
-    name: 'Drop',
+    name: "Drop",
     icon: drop,
     content: [
       {
-        title: 'Outorga de Água IGAM',
+        title: "Outorga de Água IGAM",
         text: `A outorga de água é um procedimento realizado pelo Instituto Mineiro de Gestão das Águas
-        (IGAM) em Minas Gerais, Brasil, para conceder o direito de uso dos recursos hídricos a pessoas
-        físicas ou jurídicas. O IGAM é o órgão responsável pela gestão e regulação dos recursos hídricos
-        no estado. A outorga de água é necessária para o uso dos recursos hídricos, como captação de
-        água para abastecimento público, irrigação, indústria, geração de energia hidrelétrica, entre
-        outros fins. Ela tem como objetivo garantir a disponibilidade e a sustentabilidade dos recursos
-        hídricos, evitando conflitos e promovendo o uso racional e equilibrado da água.`,
+        (IGAM) em Minas Gerais, Brasil, `,
       },
       {
-        title: 'Requerimento de Lavra',
+        title: "Requerimento de Lavra",
         text: `O requerimento de lavra é um processo necessário para obter a concessão de uma autorização
-        de lavra junto ao órgão competente. Esse processo está relacionado à atividade de mineração e
-        envolve a solicitação formal para explorar recursos minerais em uma determinada área.`,
+        de lavra junto`,
       },
-    ]
+    ],
   },
   {
-    name: 'Tree',
+    name: "Tree",
     icon: tree,
     content: [
       {
-        title: 'PTRF',
+        title: "PTRF",
         text: `Um Projeto Técnico de Recuperação Flora (PTRF) é um plano elaborado para restaurar áreas degradadas
-        ou desmatadas, visando à recuperação ecológica e o restabelecimento da vegetação nativa.`,
+        ou desmatadas`,
       },
       {
-        title: 'Regularização Ambiental e Florestal',
-        text: `A regularização ambiental e florestal é um conjunto de medidas e procedimentos que visam adequar propriedades rurais e empreendimento às legislações
-        ambientais e florestais vigentes. Essas regularizações são necessárias para garantir a conservação dos recursos naturais, a proteção do meio ambiente e o uso sustentável dos recursos naturais.
-        No contexto brasileiro, a regularização ambiental e florestal está diretamente relacionada à implementação do Código Florestal (Lei nº 12.651/2012) e do Sistema Nacional de Informação sobre o Meio Ambiente
-        (SINIMA), que abrange o Cadastro Ambiental Rural (CAR) e o Programa de Regularização Ambiental (PRA).`,
+        title: "Regularização Ambiental e Florestal",
+        text: `A regularização ambiental e florestal é um conjunto de medidas e procedimentos que visam adequar propriedades `,
       },
     ],
   },
   {
-    name: 'Seed',
+    name: "Seed",
     icon: seed,
     content: [
       {
-        title: 'PAE',
+        title: "PAE",
         text: `O Plano de Aproveitamento Econômico (PAE) é um documento que estabelece as diretrizes e
-        estratégias para a exploração econômica de recursos minerais em uma determinada área. Esse
-        plano é elaborado com base nos resultados da pesquisa mineral e tem como objetivo maximizar
-        a eficiência e rentabilidade da atividade de mineração. O PAE é um componente importante do
-        processo de concessão de lavra, pois descreve as etapas e métodos que serão utilizados para a
-        extração e beneficiamento dos minerais, além de definir as medidas de mitigação de impactos
-        ambientais e sociais. Ele deve estar em conformidade com a legislação e regulamentação
-        aplicáveis, bem como com as exigências do órgão regulador.`,
+        estratégias para a `,
       },
       {
-        title: 'PRADA',
+        title: "PRADA",
         text: `Um Projeto Técnico de Recuperação de Área Degradada ou Alterada (PRADA) é um plano elaborado para
-        restaurar áreas que sofreram algum tipo de degradação ou alteração, visando à sua recuperação ecológica
-        e à melhoria das condições ambientais`
+        restaurar áreas`,
       },
     ],
   },
   {
-    name: 'Flashlight',
+    name: "Flashlight",
     icon: flashlight,
     content: [
       {
-        title: 'Estudo de Cavidade/Espeleológico',
+        title: "Estudo de Cavidade/Espeleológico",
         text: `O estudo de cavidade, também conhecido como estudo espeleológico, é uma ciência que se
-        dedica ao estudo de cavernas, grutas e demais formações subterrâneas. A espeleologia é a
-        ciência que abrange a investigação, exploração e documentação desses ambientes naturais. O
-        estudo de cavidade tem como objetivo aumentar o conhecimento científico sobre esses
-        ambientes, bem como promover a conservação e proteção das cavernas e grutas. Essas
-        formações podem ser de grande importância científica, cultural e ambiental, e muitas vezes são
-        consideradas patrimônios naturais a serem preservados.`,
+        dedica ao estudo de `,
       },
       {
-        title: 'Assessoria Ambiental',
+        title: "Assessoria Ambiental",
         text: `A assessoria ambiental é um serviço prestado por profissionais especializados na área ambiental,
-        que oferecem suporte e orientação para questões relacionadas à legislação ambiental, gestão ambiental,
-        licenciamento, monitoramento, projetos sustentáveis e outras atividades voltadas para a preservação e uso responsável dos recursos naturais.`,
+        que `,
       },
-    ]
+    ],
   },
-]
+];
 
-export {
-  trator,
-  cerca,
-  globo,
-  documento,
-  leaf,
-  drop,
-  servicesArray,
-}
+export { trator, cerca, globo, documento, leaf, drop, servicesArray };

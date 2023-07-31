@@ -4,7 +4,7 @@ import "../css/service-carousel.css";
 
 function ServiceCarousel() {
   return (
-    <div>
+    <div id="service-container">
       <h1 id="service-title-h1">CONHEÇA OS NOSSOS SERVIÇOS</h1>
       <div id="services">
         {servicesArray.map((service) => (
