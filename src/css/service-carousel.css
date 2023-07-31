@@ -145,25 +145,26 @@
   #services {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 365px);
+    grid-template-columns: repeat(auto-fill, 310px);
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
     height: 100%;
+    row-gap: 2vh;
   }
 
   .service-card {
     background-color: #83e49d52;
-    width: 340px;
-    height: 400px;
-    margin-bottom: 2vh;
+    width: 280px;
+    height: 340px;
     border-radius: 15px;
-    padding: 2px;
-    box-shadow: rgb(189, 187, 187) 0px 0px 8px 0px;
+    padding: 3px;
+    box-shadow: rgb(189, 187, 187) 1px 1px 5px 0px;
   }
 
   .service-card:hover {
-    transform: scale(1.05);
+    transform: translate(-3px, -2px);
+    box-shadow: rgb(189, 187, 187) 6px 6px 5px 0px;
   }
   
   #service-title-h1 {
@@ -177,29 +178,25 @@
   
   .service-icon {
     width: 18%;
-    
-  }
-  .service-icon:hover {
-    transform: scale(1.05);
   }
 
   .service-div {
     padding: 2%;
-    
   }
 
   .service-content-map-div {
-    padding: 12px;
-    
+    padding: 5px 10px 10px 10px;
   }
 
   .service-content-div h2 {
     font-size: 20px;
     font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 6px;
   }
 
-  .service-content-div  p {
-    font-size: 6.5px;
+  .service-content-div p {
+    font-size: 14px;
     text-align: justify;
     margin-bottom: 0.3%;
     padding-left: 1%;
