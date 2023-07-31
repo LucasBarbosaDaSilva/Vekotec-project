@@ -109,7 +109,7 @@
     height: 75%;
     width: 50%;
     left: 8%;
-    top: 34%;
+    top: 30%;
   }
 
   .carousel-img {
@@ -131,7 +131,7 @@
     width: 65%;
     margin-left: 28vh;
     margin-top: -7vh;
-    animation: fadeIn 0.4s;
+    animation: fadeIn linear 1s;
     opacity: 1;
   }
 
@@ -139,7 +139,7 @@
     width: 40%;
     margin-top: 4vh;
     margin-left: 60vh;
-    animation: fadeIn3 0.4s;
+    animation: fadeIn3 linear 1s;
     opacity: 1;
   }
 
@@ -147,7 +147,7 @@
     width: 48%;
     margin-top: -3vh;
     margin-left: 45vh;
-    animation: fadeIn2 0.4s;
+    animation: fadeIn2 linear 1s;
     opacity: 1;
   }
 
@@ -175,70 +175,67 @@
   }
   
   .incra-title {
-    animation: animation 1s ease-in forwards;
+    animation: incra-title 0.8s linear forwards;
     width: 30%;
   }
 
    .car-title{
-    animation: animation 1s ease-in forwards; 
+    animation: car-title 0.8s linear forwards; 
   }
 
   .esg-title {
-    animation: animation 1s ease-in forwards;
+    animation: esg-title 0.8s linear forwards;
   }
 
 
   @keyframes incra-title {
     0% {
       opacity: 0;
-      transform: translateX(-200px) translateY(100px);
+      transform: translateX(50px);
     }
   
     100% {
       opacity: 1;
-      transform: translateX(50px) translateY(50px);
     }
   }
 
   @keyframes car-title {
     0% {
       opacity: 0;
-      transform: translateX(-200px) translateY(100px);
+      transform: translateX(50px);
     }
   
     100% {
       opacity: 1;
-      transform: translateX(50px) translateY(50px);
     }
   }
 
   @keyframes esg-title {
     0% {
       opacity: 0;
-      transform: translateX(-200px) translateY(100px);
+      transform: translateX(50px);
     }
   
     100% {
       opacity: 1;
-      transform: translateX(50px) translateY(50px);
     }
   }
 
   @keyframes fadeIn {
     from {
-      opacity: 30%;
+      opacity: 0%;
     }
   }
 
   @keyframes fadeIn2 {
     from {
-      opacity: 28%;
+      opacity: 0%;
     }
   }
 
   @keyframes fadeIn3 {
     from {
-      opacity: 29%;
+      opacity: 0%;
     }
   }
 
@@ -250,6 +247,4 @@
   .carousel-div {
     height: 100vh;
   }
-
-  
 }
