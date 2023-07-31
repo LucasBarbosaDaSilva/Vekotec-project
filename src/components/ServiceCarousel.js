@@ -14,12 +14,14 @@ function ServiceCarousel() {
               alt={service.name}
               className="service-icon"
             />
-            {service.content.map((content) => (
-              <div key={content.title} className="service-content-div">
-                <h2>{content.title}</h2>
-                <p>{content.text}</p>
-              </div>
-            ))}
+            <div className="service-content-map-div">
+              {service.content.map((content) => (
+                <div key={content.title} className="service-content-div">
+                  <h2>{content.title}</h2>
+                  <p>{content.text}</p>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
