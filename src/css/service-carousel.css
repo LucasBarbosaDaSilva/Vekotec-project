@@ -126,15 +126,23 @@
 
 @media only screen and (min-width: 1201px) {
   #services {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+  }
+
+  .service-card {
     background-color: #83e49d52;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    height: 100vh;
+    width: 340px;
+    height: 400px;
+    margin-bottom: 2vh;
   }
   
-  #services h1 {
+  #service-title-h1 {
     text-align: center;
     margin: 0.5ch;
     margin-left: 2ch ;
@@ -144,12 +152,7 @@
   }
   
   .service-icon {
-    border-bottom: 2px solid rgb(212, 212, 212);
-    margin: 2%;
-    border-radius: 15px;
-    background-color: #42c666;
-    border: 2px solid #fe6a4cc5;
-    padding: 1ch;
+    width: 23%;
   }
   .service-icon:hover {
     transform: scale(1.05);
@@ -160,13 +163,13 @@
     
   }
 
-  .service-div h2 {
-    font-size: 38px;
+  .service-content-div h2 {
+    font-size: 20px;
     font-weight: 700;
   }
 
-  .service-div p {
-    font-size: 20.5px;
+  .service-content-div  p {
+    font-size: 6.5px;
     text-align: justify;
     margin-bottom: 0.3%;
     padding-left: 1%;
