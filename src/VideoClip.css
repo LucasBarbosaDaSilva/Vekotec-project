@@ -171,7 +171,7 @@
     flex-direction: row;
     position: relative;
     overflow: hidden;
-    padding-top: 12%;
+    height: 800px;
     margin: 0;
   }
 
@@ -179,35 +179,27 @@
     background-color: #42c666;
     width: 58%;
     height: 100px;
-    padding: 15%;
+    padding: 13%;
     border-radius: 5%;
     margin-left: 3%;
-    transform: translateY(-135px);
+    margin-top: 6%;
   }
   
 
   .video-container iframe {
     position: absolute;
-    bottom: 30%;
-    width: 46%;
-    height: 57%;
-    margin-top: 12.5%;
+    width: 45%;
+    height: 62%;
+    margin-top: 8.5%;
     margin-left: 5%;
     border-radius: 4%;
   }
 
   .video-container .missão-container {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 35vh;
-    
-    /* padding: 30px; */
-    /* border-radius: 10%; */
-    /* margin-left: 3.5%; */
-    /* margin-bottom: 10vh; */
-    /* margin-right: 5vh; */
+    margin-top: 5%;
   }
 
   .video-container .missao-title {
@@ -223,7 +215,6 @@
     width: 100%;
     font-size: 25px;
     width: 100%;
-    /* background-color: blue; */
     padding: 2px;
     width: 70%;
     margin-bottom: 4vh;
