@@ -12,7 +12,6 @@ const VideoClip = ({ prevScrollPos }) => {
     <iframe
       src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
       title="YouTube video player"
-      allow="autoplay"
       allowFullScreen
     />
     <div className={`missão-container ${prevScrollPos > 278 && `animation`}`}>
