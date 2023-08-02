@@ -104,13 +104,13 @@ background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(223,223,223,1) 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  transform: translateY(-60px);
 }
 
 .adrees{
   display: flex;
   position: relative;
   margin-left: 5vh;
-  transform: translate(0, -160%);
 }
 
 .footer-svg{
@@ -118,7 +118,6 @@ background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(223,223,223,1) 
   flex-direction: row;
   margin-right: 38vh;
   position: relative;
-  bottom: 55px;
 }
 
 .svg{
