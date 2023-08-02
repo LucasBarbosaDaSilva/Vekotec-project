@@ -3,7 +3,7 @@ import "../Footer.css";
 import logoPb from "../css/img/logo-pb.png";
 import logoParceiro from "../css/img/logo-parceiro.png";
 import logoParceiro2 from "../css/img/logo-parceiro-2.png";
-import { email, whats, linkedin } from "../css/img/svg";
+import { email, whats, linkedin, instagram } from "../css/img/svg";
 
 function Footer() {
   return (
@@ -48,6 +48,14 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <img src={linkedin} alt="linkedin" className="svg" />
+          </a>
+          <a
+            href="https://www.instagram.com/vekotec/"
+            className="linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagram} alt="linkedin" className="svg" />
           </a>
         </div>
       </div>

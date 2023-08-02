@@ -116,7 +116,7 @@ background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(223,223,223,1) 
 .footer-svg{
   display: flex;
   flex-direction: row;
-  margin-right: 45vh;
+  margin-right: 38vh;
   position: relative;
   bottom: 55px;
 }
