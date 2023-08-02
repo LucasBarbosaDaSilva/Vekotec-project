@@ -16,7 +16,7 @@ export default function Header() {
   
   const handleMenu = () => {
     setHeaderActive(headerActive === 'headerActive' ? 'headerInactive' : 'headerActive');
-    setHeader(header === 'hidden' ? 'display' : 'hidden');
+    setHeader(header === 'hidden' ? '' : 'hidden');
   }
   return (
     <div

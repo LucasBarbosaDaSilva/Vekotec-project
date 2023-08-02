@@ -152,6 +152,8 @@
 @media only screen and (min-width: 1201px) {
   #header {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     padding-top: 1ch;
     height: 16vh;
     justify-content: space-between;
@@ -162,8 +164,10 @@
 
   #header-imgs {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   #header #logo {
@@ -187,12 +191,13 @@
     margin: 0.5ch;
     justify-content: space-around;
     font-weight: 600;
+    /* background-color: red; */
   }
 
   #header-links a {
     font-size: 1.4em;
-    margin-top: 40px;
     color: #494949;
+    /* background-color: aliceblue; */
   }
 
   #header.headerActive {
