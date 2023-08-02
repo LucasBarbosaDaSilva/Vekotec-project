@@ -19,7 +19,7 @@ const carrousel = [
     classeTitle: "car-title",
   },
   {
-    title: " é com a Vekotec",
+    title: " oluções ambientais e Topografia",
     image: back3,
     logo: logoESG,
     classe: "esg",

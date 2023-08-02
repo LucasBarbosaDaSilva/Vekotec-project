@@ -15,7 +15,7 @@ function Clients({ prevScrollPos }) {
       <div className="right-container">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5DOzvcZHjwvPV79gAlcFiFiNfpvKDquBPlK55pu0tgNVUiQ/viewform" target="_blank" rel="noopener noreferrer">
         <button
-        className={`button-client`}
+        className='button-client'
         >Clique aqui para se cadastrar!</button>
       </a>
       </div>
