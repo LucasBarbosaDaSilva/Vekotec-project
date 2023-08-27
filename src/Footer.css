@@ -46,8 +46,8 @@ background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(223,223,223,1) 
     display: flex;
     position: relative;
     bottom: -70px;
-    width: 50vh;
-    margin-left: 15vh;
+    width: 40vh;
+    margin-left: 10vh;
   }
 .footer-container{
   display: flex;
@@ -63,7 +63,7 @@ background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(223,223,223,1) 
   align-self: flex-start;
   position: relative;
   bottom: -50px;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-top: 3vh;
   font-weight: 600;
 }

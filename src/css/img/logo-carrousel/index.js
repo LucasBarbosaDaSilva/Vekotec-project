@@ -19,7 +19,7 @@ const carrousel = [
     classeTitle: "car-title",
   },
   {
-    title: " oluções ambientais e Topografia",
+    title: " oluções Ambientais, Topografia e Mineração",
     image: back3,
     logo: logoESG,
     classe: "esg",
