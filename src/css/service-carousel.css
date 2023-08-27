@@ -162,9 +162,10 @@
   }
 
   .service-card {
-    background-color: #00c7609a;
+    position: relative;
+    background-color: #00c760a1;
     width: 295px;
-    height: 370px;
+    height: 340px;
     border-radius: 15px;
     padding: 3px;
     box-shadow: rgb(189, 187, 187) 1px 1px 5px 0px;
@@ -180,12 +181,13 @@
     margin: 0.5ch;
     margin-left: 2ch ;
     margin-bottom: 1.5ch;
-    font-size: 42px;
-    font-weight: 900;
+    font-size: 45px;
+    font-weight: 600;
   }
   
   .service-icon {
-    width: 18%;
+    width: 25%;
+    margin: 3px;
   }
 
   .service-div {
@@ -193,14 +195,21 @@
   }
 
   .service-content-map-div {
+    position: absolute;
+    top:50%;
+    /* left: 50%; */
+    transform: translate(1%, -38%);
     padding: 5px 10px 10px 10px;
   }
 
   .service-content-div h2 {
-    font-size: 20px;
-    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    font-size: 21px;
+    font-weight: 600;
     line-height: 1.2;
-    padding-bottom: 6px;
+    padding-bottom: 15px;
+    
   }
 
   .service-content-div p {
@@ -219,5 +228,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 }
