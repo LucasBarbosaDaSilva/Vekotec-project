@@ -15,21 +15,25 @@ const servicesArray = [
     content: [
       {
         title: "Supressão de Vegetação Nativa e Plantada",
-        text: `A supressão de vegetação refere-se à remoção ou corte de árvores ou vegetação de uma área.`,
       },
+
       {
-        title: "Pesquisa Mineral",
-        text: `Etapa inicial do processo de desenvolvimento de uma mina, na qual são realizados estudos para identificar e avaliar o potencial mineral de uma área.`,
+        title: "PAE - Plano de Aproveitamento Econômico",
       },
     ],
   },
   {
-    name: "Cerca",
-    icon: cerca,
+    name: "Seed",
+    icon: seed,
     content: [
       {
         title: "Defesa Ambiental",
-        text: `Processo de contestar e buscar a anulação e redução de penalidades impostas por infrações às normas e regulamentos ambientais.`,
+      },
+      {
+        title: "Assessoria Ambiental",
+      },
+      {
+        title: "Licenciamento Ambiental",
       },
     ],
   },
@@ -38,8 +42,7 @@ const servicesArray = [
     icon: globo,
     content: [
       {
-        title: "Georreferenciamento Rural e Urbano",
-        text: `O Georreferenciamento (GEO) é o processo de associar informações geográficas a áreas na superfície terrestre.`,
+        title: "Georreferenciamento Rural e Urbano - (GEO)",
       },
     ],
   },
@@ -48,20 +51,13 @@ const servicesArray = [
     icon: documento,
     content: [
       {
-        title: "CAR",
-        text: `O Cadastro Ambiental Rural é um registro eletrônico obrigatório para todas as
-        propriedades rurais no Brasil, com o objetivo de promover a regularização ambiental das
-        propriedades rurais.`,
+        title: "CAR - Cadastro Ambiental Rural",
       },
-    ],
-  },
-  {
-    name: "Leaf",
-    icon: leaf,
-    content: [
       {
-        title: "CCIR",
-        text: `O CCIR (Certificado de Cadastro de Imóvel Rural) é um documento emitido pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA) no Brasil.`,
+        title: "CCIR - Certificado de Cadastro de Imóvel Rural",
+      },
+      {
+        title: "Usucapião Judicial e Extra Judicial",
       },
     ],
   },
@@ -71,13 +67,9 @@ const servicesArray = [
     content: [
       {
         title: "Outorga de Água IGAM",
-        text: `A outorga de água é um procedimento realizado pelo Instituto Mineiro de Gestão das Águas
-        (IGAM) em Minas Gerais, Brasil, `,
       },
       {
         title: "Requerimento de Lavra",
-        text: `O requerimento de lavra é um processo necessário para obter a concessão de uma autorização
-        de lavra junto`,
       },
     ],
   },
@@ -86,28 +78,24 @@ const servicesArray = [
     icon: tree,
     content: [
       {
-        title: "PTRF",
-        text: `Um Projeto Técnico de Recuperação Flora (PTRF) é um plano elaborado para restaurar áreas degradadas
-        ou desmatadas`,
+        title: "PTRF - Projeto Técnico de Recuperação Flora",
       },
       {
-        title: "Regularização Ambiental e Florestal",
-        text: `A regularização ambiental e florestal é um conjunto de medidas e procedimentos que visam adequar propriedades `,
+        title:
+          "PRADA - Projeto Técnico de Recuperação de Área Degradada ou Alterada",
       },
     ],
   },
   {
-    name: "Seed",
-    icon: seed,
+    name: "Cerca",
+    icon: cerca,
     content: [
       {
-        title: "PAE",
-        text: `O Plano de Aproveitamento Econômico (PAE) é um documento que estabelece as diretrizes e
-        estratégias para a `,
-      },
-      {
         title: "Regularização de Imóveis Urbano e Rural",
-        text: `Processo necessário para garantir a legalidade e a segurança jurídica da propriedade.`,
+      },
+
+      {
+        title: "Regularização Ambiental e Florestal",
       },
     ],
   },
@@ -117,44 +105,10 @@ const servicesArray = [
     content: [
       {
         title: "Estudo de Cavidade/Espeleológico",
-        text: `O estudo de cavidade, também conhecido como estudo espeleológico, é uma ciência que se
-        dedica ao estudo de `,
       },
-    ],
-  },
-  {
-    name: "Tree",
-    icon: tree,
-    content: [
+
       {
-        title: "Usucapião Judicial e Extra Judicial",
-        text: `Usucapião é um instituto do direito civil que permite a aquisição de propriedade de um bem em virtude da posse prolongada e contínua.`,
-      },
-    ],
-  },
-  {
-    name: "Seed",
-    icon: seed,
-    content: [
-      {
-        title: "PRADA",
-        text: `Um Projeto Técnico de Recuperação de Área Degradada ou Alterada (PRADA) é um plano elaborado para
-        restaurar áreas`,
-      },
-    ],
-  },
-  {
-    name: "Flashlight",
-    icon: flashlight,
-    content: [
-      {
-        title: "Assessoria Ambiental",
-        text: `A assessoria ambiental é um serviço prestado por profissionais especializados na área ambiental,
-        que `,
-      },
-      {
-        title: "Licenciamento Ambiental",
-        text: `A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (SEMAD) é o órgão responsável pelo .`,
+        title: "Pesquisa Mineral",
       },
     ],
   },
