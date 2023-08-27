@@ -31,10 +31,6 @@ const servicesArray = [
         title: "Defesa Ambiental",
         text: `Processo de contestar e buscar a anulação e redução de penalidades impostas por infrações às normas e regulamentos ambientais.`,
       },
-      {
-        title: "Usucapião Judicial e Extra Judicial",
-        text: `Usucapião é um instituto do direito civil que permite a aquisição de propriedade de um bem em virtude da posse prolongada e contínua.`,
-      },
     ],
   },
   {
@@ -52,10 +48,6 @@ const servicesArray = [
     icon: documento,
     content: [
       {
-        title: "Regularização de Imóveis Urbano e Rural",
-        text: `Processo necessário para garantir a legalidade e a segurança jurídica da propriedade.`,
-      },
-      {
         title: "CAR",
         text: `O Cadastro Ambiental Rural é um registro eletrônico obrigatório para todas as
         propriedades rurais no Brasil, com o objetivo de promover a regularização ambiental das
@@ -67,10 +59,6 @@ const servicesArray = [
     name: "Leaf",
     icon: leaf,
     content: [
-      {
-        title: "Licenciamento Ambiental",
-        text: `A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (SEMAD) é o órgão responsável pelo .`,
-      },
       {
         title: "CCIR",
         text: `O CCIR (Certificado de Cadastro de Imóvel Rural) é um documento emitido pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA) no Brasil.`,
@@ -118,9 +106,8 @@ const servicesArray = [
         estratégias para a `,
       },
       {
-        title: "PRADA",
-        text: `Um Projeto Técnico de Recuperação de Área Degradada ou Alterada (PRADA) é um plano elaborado para
-        restaurar áreas`,
+        title: "Regularização de Imóveis Urbano e Rural",
+        text: `Processo necessário para garantir a legalidade e a segurança jurídica da propriedade.`,
       },
     ],
   },
@@ -133,10 +120,41 @@ const servicesArray = [
         text: `O estudo de cavidade, também conhecido como estudo espeleológico, é uma ciência que se
         dedica ao estudo de `,
       },
+    ],
+  },
+  {
+    name: "Tree",
+    icon: tree,
+    content: [
+      {
+        title: "Usucapião Judicial e Extra Judicial",
+        text: `Usucapião é um instituto do direito civil que permite a aquisição de propriedade de um bem em virtude da posse prolongada e contínua.`,
+      },
+    ],
+  },
+  {
+    name: "Seed",
+    icon: seed,
+    content: [
+      {
+        title: "PRADA",
+        text: `Um Projeto Técnico de Recuperação de Área Degradada ou Alterada (PRADA) é um plano elaborado para
+        restaurar áreas`,
+      },
+    ],
+  },
+  {
+    name: "Flashlight",
+    icon: flashlight,
+    content: [
       {
         title: "Assessoria Ambiental",
         text: `A assessoria ambiental é um serviço prestado por profissionais especializados na área ambiental,
         que `,
+      },
+      {
+        title: "Licenciamento Ambiental",
+        text: `A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (SEMAD) é o órgão responsável pelo .`,
       },
     ],
   },
