@@ -9,16 +9,17 @@ function ServiceCarousel() {
       <div id="services">
         {servicesArray.map((service) => (
           <div className="service-card" key={service.name}>
-            <img
-              src={service.icon}
-              alt={service.name}
-              className="service-icon"
-            />
+            <div className="service-icon-div">
+              <img
+                src={service.icon}
+                alt={service.name}
+                className="service-icon"
+              />
+            </div>
             <div className="service-content-map-div">
               {service.content.map((content) => (
                 <div key={content.title} className="service-content-div">
-                  <h2>{content.title}</h2>
-                  <p>{content.text}</p>
+                  <h2>&#10004; {content.title}</h2>
                 </div>
               ))}
             </div>

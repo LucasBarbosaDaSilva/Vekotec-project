@@ -5,8 +5,8 @@ import '../Values.css';
 function Values() {
   return (
     <div className='values-container'>
-      <h1 className="value-title">Os Valores da Vekotec estão alinhados com os Objetivos de Desenvolvimento Sustentável da ONU*</h1> <br />
-      <p>que são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estes são uns dos objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Brasil:</p>
+      <h1 className="value-title">A Vekotec está alinhada com os Objetivos de Desenvolvimento Sustentável da ONU*</h1> <br />
+      <p>Os objetivos de desenvolvimento sustentável da ONU são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade.</p>
       <div className="value-container">
         {ongValues.map(value =>
           <div key="card" className="value-card">

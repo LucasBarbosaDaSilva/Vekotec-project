@@ -104,7 +104,7 @@ const servicesArray = [
     icon: flashlight,
     content: [
       {
-        title: "Estudo de Cavidade/Espeleológico",
+        title: "Estudo de Cavidade/ Espeleológico",
       },
 
       {
