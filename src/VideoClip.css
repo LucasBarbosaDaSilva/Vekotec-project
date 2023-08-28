@@ -1,32 +1,29 @@
 @media only screen and (max-width: 480px) {
-
   .video-container {
     display: flex;
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    padding-top: 25%;
-    margin-top: 15%;
-    margin-left: 5%;
+    /* height: 700px; */
+    margin: 0;
   }
 
   .video-container .video-background {
-    background-color: #42c666ed;
-    width: 89%;
+    background-color: #42c666;
+    width: 87%;
     height: 100px;
-    padding: 100px;
+    padding: 33%;
     border-radius: 5%;
-    margin-top: 2%;
-    transform: translateY(-85px);
+    margin-left: 2%;
+    margin-top: 6%;
   }
+  
 
   .video-container iframe {
     position: absolute;
-    top: 2%;
-    left: 0;
-    width: 87%;
-    height: 35%;
-    margin-top: 6.5%;
+    width: 88%;
+    height: 25%;
+    margin-top: 9.5%;
     margin-left: 5%;
     border-radius: 4%;
   }
@@ -35,22 +32,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
-    border-radius: 10%;
-    width: 99%;
-    transform: translateY(-33px);
+    margin-bottom: 4%;
   }
 
-  .video-container .missão-container .missao-title {
+  .video-container .missao-title {
     width: 100%;
-    font-size: 42.8px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15%;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
   }
 
-  .video-container .missão-container .paragraph-title {
+  .video-container .paragraph-title {
     width: 100%;
-    font-size: 20.8px;
+    font-size: 25px;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
+    width: 80%;
+    margin-left: 4vh;
+    
+  }
+
+  .animation {
+    animation: animation 1s ease-in forwards;
+  }
+
+  @keyframes animation {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
 }
 
