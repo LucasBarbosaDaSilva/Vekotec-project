@@ -7,14 +7,15 @@ const VideoClip = ({ prevScrollPos }) => {
 
   return (
     <div className="video-container">
-      <div className="video-background" />
-      <div className="embelishment-div-video" />
-      <iframe
-        src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
-        title="YouTube video player"
-        allow="autoplay"
-        allowFullScreen
-      />
+      <div className="video-container-left">
+        <div className="video-background" />
+        <iframe
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          title="YouTube video player"
+          allow="autoplay"
+          allowFullScreen
+        />
+      </div>
       <div className={`missão-container ${prevScrollPos > 278 && `animation`}`}>
         <h1 className="missao-title">Quem Somos</h1>
         <p className="paragraph-title">

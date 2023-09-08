@@ -24,7 +24,7 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      console.log(prevScrollPos);
+      // console.log(prevScrollPos);
     };
   }, [prevScrollPos]);
   return (

@@ -26,7 +26,6 @@ const Carousel = () => {
         backgroundColor: 'rgb(47,193,140)',
       }}>
         <img className="carousel-img" src={carrousel[currentImageIndex].image} alt={`Carousel background ${currentImageIndex}`} />
-        {/* <div id="embelishment-div" /> */}
         {carrousel[currentImageIndex].classe !== 'esg'
           ?
           <div
