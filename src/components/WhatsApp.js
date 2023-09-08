@@ -6,7 +6,7 @@ function WhatsApp() {
   return (
     <div id="whats-container">
     <a 
-      href="https://api.whatsapp.com/send?phone=32988080152"
+      href="https://api.whatsapp.com/send?phone=32000000000"
       className="whatsapp-link"
       target="_blank"
       rel="noopener noreferrer"

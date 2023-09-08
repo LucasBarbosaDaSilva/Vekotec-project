@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-contact">
           <p>Contato: +55(35) 99826-8909 / +55(38) 99995-0128</p>
-          <p>E-mail: vekotecbr@gmail.com</p>
+          <p>E-mail: sac@vekotec.com.br</p>
         </div>
         <div className="footer-parceiros">
           <p className="parceiros">PARCEIRO(S):</p>
@@ -30,11 +30,11 @@ function Footer() {
           </p>
         </div>
         <div className="footer-svg">
-          <a href="mailto:vekotecbr@gmail.com" className="email-link">
+          <a href="mailto:sac@vekotec.com.br" className="email-link">
             <img src={email} alt="email" className="svg" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=32988080152"
+            href="https://api.whatsapp.com/send?phone=32000000000"
             className="whatsapp"
             target="_blank"
             rel="noopener noreferrer"
