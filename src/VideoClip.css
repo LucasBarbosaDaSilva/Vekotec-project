@@ -221,14 +221,11 @@
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    height: 700px;
-    margin: 0;
   }
 
   .video-container .video-container-left {
     position: relative;
     width: 90%;
-    /* background-color: #e6e6e6; */
   }
 
   .video-container .video-background {
