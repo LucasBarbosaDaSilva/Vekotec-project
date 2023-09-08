@@ -533,7 +533,7 @@
 @media only screen and (min-width: 1201px) {
   .carousel-text {
     height: 75%;
-    width: 50%;
+    /* width: 50%; */
     left: 8%;
     top: 30%;
     font-size: 26px;
@@ -553,7 +553,7 @@
   }
 
   .incra {
-    width: 65%;
+    width: 500px;
     margin-left: 30vh;
     margin-top: -8vh;
     animation: fadeIn linear 1s;
@@ -561,7 +561,7 @@
   }
 
   .car {
-    width: 40%;
+    width: 400px;
     margin-top: 4vh;
     margin-left: 60vh;
     animation: fadeIn3 linear 1s;
@@ -610,7 +610,7 @@
 
   .esg-title {
     animation: esg-title 0.8s linear forwards;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 900;
     line-height: 1.5ch;
     color: rgba(0, 0, 0, 0.541);
