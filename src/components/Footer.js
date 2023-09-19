@@ -34,7 +34,7 @@ function Footer() {
             <img src={email} alt="email" className="svg" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=32000000000"
+            href="https://api.whatsapp.com/send?phone=35998268909"
             className="whatsapp"
             target="_blank"
             rel="noopener noreferrer"
