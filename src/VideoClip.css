@@ -21,7 +21,7 @@
   .video-container iframe {
     position: absolute;
     width: 88%;
-    height: 38%;
+    height: 30vh;
     margin-top: -64%;
     margin-left: 5%;
     border-radius: 4%;
