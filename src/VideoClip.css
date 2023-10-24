@@ -36,7 +36,7 @@
 
   .missao-title {
     width: 100%;
-    font-size: 28px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
     margin-top: 8vh;
@@ -46,7 +46,7 @@
 
   .video-container .paragraph-title {
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
     width: 100%;
     padding: 2px;
     width: 80%;
@@ -262,14 +262,14 @@
   }
 
   .video-container .missao-title {
-    font-size: 29px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
     margin-bottom: 1vh;
   }
 
   .video-container .paragraph-title {
-    font-size: 24px;
+    font-size: 17px;
     padding: 2px;
     margin-bottom: 4vh;
     margin-left: 2vh;
